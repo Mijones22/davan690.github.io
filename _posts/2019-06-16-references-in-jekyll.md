@@ -7,7 +7,7 @@ tags: ["compile", "r", "rmd", "RStudio", "tools", "general"]
 permlink: /jeykll-references.html
 ---
 
-As I am working in R Studio and `Github` I have found that I get stuck between word processing and analysis with references. 
+As I am working in R Studio and `Github` I have found that I get stuck between word processing and analysis with references.
 
 ## Tutorials
 
@@ -19,4 +19,4 @@ Like so many open source resources there are at least three different ways to ac
 
 - [jekyll-scholar gem](https://github.com/inukshuk/jekyll-scholar)
 
-  The thing is I don't really even understand how `gems` work so I have been doing some investigation.
+The thing is I don't really even understand how `gems` work so I have been doing some investigation.

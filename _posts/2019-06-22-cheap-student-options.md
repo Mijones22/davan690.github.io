@@ -12,7 +12,7 @@ As I am finishing up my PhD and working out how to build a career in academia I 
 
 I have also been noticing that I am losing connections (both for work and by not having a business card to direct people to the website when suites them. We have little support in these sorts of areas as graduate students and even less funding . As a graduate student I got the generic card when I asked and since our institute has been incorporated into the universities science department I don’t even dear ask. 
 
-Sooo instead I have built this website but now I still don't have cash for business cards (really just networking tools here) yet even though I have the resource.
+So instead I have built this website but now I still don't have cash for business cards (really just networking tools here) yet even though I have the resource.
 
 This is my solution to business cards with an quirky edge or, as some would say, a student budget.
 
@@ -23,7 +23,14 @@ This is my solution to business cards with an quirky edge or, as some would say,
 I have put together a very rough logo in the center and added my contact details to a single label template. I found this one below with a very quick google search so I'm sure there are better solutions with some more time however this one:
 
 - doesnt request sign-up before producing content as of June 2019
+
+![image-20190622122310281](../img/testshot.png)
+
 - this one matches the company stickers I brought = so that the printing will be guaranteed to line up??
+
+![image-20190622122856770](../img/another-test.png)
+
+
 
 I then printed the image which gave me a pdf to download or print. Which leads to a pdf of 36 labels ready to print for 50c in colour printing.
 
