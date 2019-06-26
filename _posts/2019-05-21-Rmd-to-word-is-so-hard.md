@@ -120,5 +120,43 @@ I did not realise how touching the `tabs` and spaces were in the `YAML` header o
 
 The code rendered into a word document tends to be justified and messy. You can not just use the templating options of `bookdown` and `rmarkdown` as I tried and it didn’t seem to want to play ball.
 
+## Cross referencing notes
+
+
+
+FROM: https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents
+
+According to [the Rmarkdown guide](https://bookdown.org/yihui/bookdown/figures.html) by the creator @Yihui, `\@ref(figure's label)` should be used to refer to a figure. Therefore, you may use `\@ref(fig:TotalCarStock)`, instead of `\ref{fig:TotalCarStock}`, as shown below:
+
+> As illustrated in Figure \@ref(fig:TotalCarStock), etc, etc.
+
+The notation `\@ref(figure's/table's label)` can be used to make a reference to an image, graph or table, when knitting either `.docx`, `.pdf`, or `.html`.
+
+
+
+[share](https://stackoverflow.com/a/52345023/10098854)[edit](https://stackoverflow.com/posts/52345023/edit)
+
+[edited Sep 15 '18 at 19:21](https://stackoverflow.com/posts/52345023/revisions)
+
+
+
+
+
+answered Sep 15 '18 at 13:10
+
+[![img](https://lh3.googleusercontent.com/-bwcos_zylKg/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7o18NuEdWnDEck_qPpn-lu21VTdfw/mo/photo.jpg?sz=32)](https://stackoverflow.com/users/10215301/carlos-luis-rivera)
+
+[Carlos Luis Rivera](https://stackoverflow.com/users/10215301/carlos-luis-rivera)
+
+**302**1111 bronze badges
+
+- 
+
+  Actually, I had already tried to implement this. I then got the following output: "As illustrated in Figure @ref{fig:TotalCarStock}, the forecasted car stock is much higher than the actual car stock" – [Laurent Franckx](https://stackoverflow.com/users/2489272/laurent-franckx)[Sep 17 '18 at 9:54](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents#comment91674344_52345023) 
+
+- 
+
+  I oversaw a fundamental solution: your file path may need to be fixed. Currently, your file path is `C:/Usr/WP vehicle stock/TotalCarStock.jpg`, which includes some ` ` (spaces). That seems cause the problem. If possible, could you rename the path so that the file path has no space? (e.g. `C:/Usr/WP-vehicle-stock/TotalCarStock.jpg`) I think `-` (hyphen) is more convenient than `_` (underscore), because sometimes TeX engines fail to read a path with underscores. Although I know that you want a `.docx` output , using `-` is safer way as far as I know. – [Carlos Luis Rivera](https://stackoverflow.com/users/10215301/carlos-luis-rivera) [Sep 17 '18 at 10:50](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents#comment91676210_52345023) 
+
 
 
