@@ -8,6 +8,8 @@ image: /img/doc-image-logo.png
 permlink: /beech-seed-dynamics.html
 ---
 
+<div><centre><a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}" align = "center">Help make it better here</a></centre></div>
+
 There are many many publications that explain beech forests. Generally, the overall understanding of beech forest dynamics could be summaries as:
 
 ## Contents

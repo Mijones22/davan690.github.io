@@ -1,6 +1,6 @@
 ---
-title: "Searching in R"
-permalink: /searchingr.html
+title: "Bookdown to word"
+permalink: /bookdown-to-word.html
 layout: post 
 header:
   overlay_color: "444444"

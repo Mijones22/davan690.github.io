@@ -8,7 +8,13 @@ tags: ["compile", "tools", "general"]
 permalink: /jekyll-in-windows.html
 ---
 
-IMPOSSIBLE...but i need to do it so here goes:
+There is a quick timeline:
+
+- Tried (October 2018)
+- Gave up (April 2019)
+- IMPOSSIBLE...but i need to do it so here goes (May 2019)
+- Its getting easier with time and now I realise that you can pretty much do it any one of a million ways (July 2019)
+- Use everyday (August 2019)
 
 ## Tutorials
 
@@ -18,17 +24,20 @@ IMPOSSIBLE...but i need to do it so here goes:
 
 - [Notes for a MAC user](https://www.alspur.com/moving-to-blogdown/)
 
-- [Andy's notes]()
-These notes are great. I have extended them below but all credit to [Andy]() and other `knitr` developers (...)
+- [Andy's notes]: These notes are great. I have extended them below but all credit to [Andy]() and other `knitr` developers (...)
 
 - But I am still left with the issue of not being able to run jekyll and gems on my local machine. So this is how I have done it.
 
 ## My notes
 
-1. Install ruby but make sure it is x86 not x64 that can cause issues  
-2. INstall jekyll
+The mosts basic steps with no instruction:
+
+1. Install ruby but make sure it is x86 not x64 that can cause issues
+2. Install jekyll
 3. Install bundler
-4. 
+4. BUndle gems
+5. Build jekyll
+6. Serve jekyll
 
 ## Below is for RMarkdown files
 
