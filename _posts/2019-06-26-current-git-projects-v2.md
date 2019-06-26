@@ -1,46 +1,18 @@
 ---
-title: "Bookdown to word"
-permalink: /bookdown-to-word.html
-layout: post 
-header:
-  overlay_color: "444444"
+layout: post
+title: "GIThub repo's arebuilding"
+subtitle: "Projects under development"
+show-avatar: true
+css: '/css/extend-home.css'
 tags: ["phd", "general", "overview", "website"]
 ---
-
-Now this has been a huge barrier for me ever since I become aware of the ability to build reports well doing statistical coding in R. But over the past year it has become "somewhat possible" to do this in RMarkdown and connecting this to word using a series of packages.
-
-Word has always been hard to work with big documents. In particular, if the user has large or numerous images, tables and equations. This makes something like LaTex or Markdown an appealing option but the barrier is:
-
-**you have to learn the coding language!**
-
-And "everyone says that all coding has a steep and un-enjoyable journey to the top."
-
-The thing I was not expecting was for the communication and generation of word documents to be SOOOOO painful. *This has come in leaps and bounds over the past year or so thanks to a key group of developers (Hadley WIckham and YUi "the rockstar"!....and others).*
-
-Here are a few short notes on the issues I found hard in the `docx` world.
-
-## DOCx code!
-
-| CODE                       | MEANING |
-| -------------------------- | ------- |
-| `bookdown::word_document2` |         |
-| `rmarkdown::word_document` |         |
-| `rmarkdown::render`        |         |
-| `servr::serve.jekyll?`     |         |
-
-## Tutorials
-
-- [RStudio guide again](https://rmarkdown.rstudio.com/articles_docx.html)
-- [Cross-referencing](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents): This is just a stack-overflow feed but has some handy code snippets inside.
-
-#### Other repositories
 
 <div class="spacer"></div>
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
       {%- assign gh-user = "davan690"-%}
-      {%- assign gh-project = "rmarkdown-workshop" -%}
+      {%- assign gh-project = "usefulR" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
@@ -57,7 +29,7 @@ Here are a few short notes on the issues I found hard in the `docx` world.
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-      {%- assign gh-project = "Manuscript_in_Rmarkdown" -%}
+      {%- assign gh-project = "reproducible-guidebook" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
@@ -74,7 +46,7 @@ Here are a few short notes on the issues I found hard in the `docx` world.
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-    {%- assign gh-project = "rmdTemplates" -%}
+    {%- assign gh-project = "davan690.github.io" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
@@ -91,7 +63,7 @@ Here are a few short notes on the issues I found hard in the `docx` world.
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-    {%- assign gh-project = "rmarkdown2docx" -%}
+    {%- assign gh-project = "beech-forest-dynamics" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
@@ -107,18 +79,3 @@ Here are a few short notes on the issues I found hard in the `docx` world.
     </div>
   </div>
 </div>
-
-## My notes
-
-I’m really not sure how to start these notes but I am sure there will be many in time. For now they are just snippets of fleeting information.
-
-### The YAML content
-
-I did not realise how touching the `tabs` and spaces were in the `YAML` header of any `.Rmd` file.
-
-### TIdy up R-code
-
-The code rendered into a word document tends to be justified and messy. You can not just use the templating options of `bookdown` and `rmarkdown` as I tried and it didn’t seem to want to play ball.
-
-
-
