@@ -1,5 +1,5 @@
 ---
-title: "Bookdown language change"
+title: "Bookdown thesis examples"
 subtitle: "Maybe there is some helpful code in here"
 layout: post
 image:  /img/ab-test-testing-ss-1920.jpg
