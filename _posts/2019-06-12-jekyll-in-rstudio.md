@@ -20,7 +20,7 @@ This is an collection of resources I have used to make this happen. I think this
 - [Another fellow students examples](https://jfiksel.github.io/2017-01-25-hello-world/)
 - [MAPS](https://stackoverflow.com/questions/37800755/embedding-google-map-in-a-jekyll-post)
 - [MOre maps](http://matthewowen.github.io/jekyll-mapping/)
-- - [git jekyll maps](https://github.com/ayastreb/jekyll-maps)
+- [git jekyll maps](https://github.com/ayastreb/jekyll-maps)
 
 I found this blog explaining how [Jacob Fiksel](https://jfiksel.github.io/) steps through the process very helpful.
 
