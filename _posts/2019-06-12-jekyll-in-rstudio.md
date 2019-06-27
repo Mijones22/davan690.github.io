@@ -18,6 +18,9 @@ This is an collection of resources I have used to make this happen. I think this
 - [emitanaka](https://emitanaka.rbind.io/post/scientific-and-technical-blogging-radix-vs-blogdown-remix/)
 - [yinting chou](https://yintingchou.com/posts/jekyll-website-with-github-github-pages-and-r-markdown/)
 - [Another fellow students examples](https://jfiksel.github.io/2017-01-25-hello-world/)
+- [MAPS](https://stackoverflow.com/questions/37800755/embedding-google-map-in-a-jekyll-post)
+- [MOre maps](http://matthewowen.github.io/jekyll-mapping/)
+- - [git jekyll maps](https://github.com/ayastreb/jekyll-maps)
 
 I found this blog explaining how [Jacob Fiksel](https://jfiksel.github.io/) steps through the process very helpful.
 
