@@ -10,3 +10,4 @@ permalink: /bookdown-template.html
 
 This is a up and coming application of reproducible science using a combination of `git` and `R`
 
+"davan690/rmdTemplates"
