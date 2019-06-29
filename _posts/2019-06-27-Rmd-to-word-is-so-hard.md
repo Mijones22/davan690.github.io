@@ -5,6 +5,7 @@ layout: post
 header:
   overlay_color: "444444"
 tags: ["phd", "general", "overview", "website"]
+bibliography: website-base-references.bib
 ---
 
 Now this has been a huge barrier for me ever since I become aware of the ability to build reports well doing statistical coding in R. But over the past year it has become "somewhat possible" to do this in RMarkdown and connecting this to word using a series of packages.
@@ -53,8 +54,8 @@ The key information in this project current is:
 
 1. Cross referencing notes on [stack](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents)
 
-```FROM: 
-According to [the Rmarkdown guide](https://bookdown.org/yihui/bookdown/figures.html) by the creator @Yihui, `\@ref(figure's label)` should be used to refer to a figure. Therefore, you may use `\@ref(fig:TotalCarStock)`, instead of `\ref{fig:TotalCarStock}`, as shown below:
+```FROM:
+According to [the `Rmarkdown` guide](https://bookdown.org/yihui/bookdown/figures.html) by the creator @Yihui, `\@ref(figure's label)` should be used to refer to a figure. Therefore, you may use `\@ref(fig:TotalCarStock)`, instead of `\ref{fig:TotalCarStock}`, as shown below:
 
 > As illustrated in Figure \@ref(fig:TotalCarStock), etc, etc.
 
