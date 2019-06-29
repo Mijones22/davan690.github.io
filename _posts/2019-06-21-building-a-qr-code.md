@@ -12,7 +12,6 @@ permlink: fun-and-games.html
 
 ![1561093251760](./img/qr-banner.png)
 
-
 ## My notes
 
 1. Pick a simple option for a online tool to do it.
@@ -20,7 +19,7 @@ permlink: fun-and-games.html
    - One option [here](https://www.qr-code-generator.com/)
    - Another one [here](https://www.the-qrcode-generator.com/): This one is a little simpler
    - I used this [one](https://www.qrcode-monkey.com/): I liked this one because of easy custom image insert but im sure they are all “much of a muchness”
-   -medium blog https://medium.com/@gliechtenstein/build-a-qrcode-barcode-scanning-app-with-26-lines-of-json-b83453d39197
+   - Medium blog https://medium.com/@gliechtenstein/build-a-qrcode-barcode-scanning-app-with-26-lines-of-json-b83453d39197
 https://www.qrcode-monkey.com/#about
 
    ![1561093052334](./img/qr-codes.png)
