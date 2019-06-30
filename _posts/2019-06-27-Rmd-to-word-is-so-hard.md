@@ -64,7 +64,8 @@ The notation `\@ref(figure's/table's label)` can be used to make a reference to 
 
 #### Comment solutions from feed
 
-- Actually, I had already tried to implement this. I then got the following output: "As illustrated in Figure @ref{fig:TotalCarStock}, the forecasted car stock is much higher than the actual car stock" – [Laurent Franckx](https://stackoverflow.com/users/2489272/laurent-franckx)[Sep 17 '18 at 9:54](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents#comment91674344_52345023) 
+- Actually, I had already tried to implement this. I then got the following output: "As illustrated in Figure @ref{fig:TotalCarStock}, the forecasted car stock is much higher than the actual car stock" – [Laurent Franckx](https://stackoverflow.com/users/2489272/laurent-franckx)[Sep 17 '18 at 9:54](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents#comment91674344_52345023)
+
 - I oversaw a fundamental solution: your file path may need to be fixed. Currently, your file path is `C:/Usr/WP vehicle stock/TotalCarStock.jpg`, which includes some ` ` (spaces). That seems cause the problem. If possible, could you rename the path so that the file path has no space? (e.g. `C:/Usr/WP-vehicle-stock/TotalCarStock.jpg`) I think `-` (hyphen) is more convenient than `_` (underscore), because sometimes TeX engines fail to read a path with underscores. Although I know that you want a `.docx` output , using `-` is safer way as far as I know. – [Carlos Luis Rivera](https://stackoverflow.com/users/10215301/carlos-luis-rivera) [Sep 17 '18 at 10:50](https://stackoverflow.com/questions/52335126/cross-references-in-rmarkdown-for-word-documents#comment91676210_52345023) 
 
 ## Tutorials
