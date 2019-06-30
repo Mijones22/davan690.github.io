@@ -22,12 +22,12 @@ Here are a few short notes on the issues I found hard in the `docx` world.
 
 ## DOCx code!
 
-| CODE                       | MEANING |
-| -------------------------- | ------- |
-| `bookdown::word_document2` |         |
-| `rmarkdown::word_document` |         |
-| `rmarkdown::render`        |         |
-| `servr::serve.jekyll?`     |         |
+| CODE                       | MEANING                                                                                       |
+| -------------------------- | --------------------------------------------------------------------------------------------- |
+| `bookdown::word_document2` | Function build on `rmarkdown` to generate single page documents from a `bookdown` project     |
+| `rmarkdown::word_document` | The core functionality of linking R analysis with reproducible reporting for word documents   |
+| `rmarkdown::render`        | The core functionality of linking R analysis with reproducible reporting for any documents    |
+| `servr::serve.jekyll?`     | Build jekyll website from within RStudio                                                      |
 
 <div class="spacer"></div>
 <div class="row text-center">
