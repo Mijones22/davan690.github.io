@@ -19,3 +19,5 @@ This is the biggest issue in my life right now!!
 
 ## SNAP 2
 
+![1562202788132](../../img/nuts.png)
+
