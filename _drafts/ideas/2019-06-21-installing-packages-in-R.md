@@ -21,5 +21,5 @@ install.packages()
 
 ### RStudio dropdown windows
 
-![1560644155962](\img\1560644155962.png)
+![1560644155962](.\img\1560644155962.png)
 
