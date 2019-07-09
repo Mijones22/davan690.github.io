@@ -7,7 +7,7 @@ tags: ["compile", "r", "rmd", "RStudio", "tools", "general"]
 permlink: /jeykll-references.html
 ---
 
-As I am working in R Studio and `Github` I have found that I get stuck between word processing and analysis with references.
+As I am working in `RStudio` and `Github` I have found that I get stuck between word processing and analysis with references. I still have not worked out how to intergrate jekyll citations with my `Rmd` files. Below are some notes to begin working through this.
 
 ## Tutorials
 
