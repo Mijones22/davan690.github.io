@@ -20,5 +20,4 @@ Rafael A. Irizarry (2019-04-22)
 
 ## Unique tools for RMarkdown
 
-[Working with tables](https://cran.r-project.org/web/packages/summarytools/vignettes/Recommendations-rmarkdown.html): summary tables are hard at the best of times but this package is amazing if you can get the tables to render in the output format (word tables are fussy)
-
+[Working with tables](https://cran.r-project.org/web/packages/summarytools/vignettes/Recommendations-rmarkdown.html) to produce summary tables can be hard at the best of times but this package is amazing if you can get the tables to render in the output format (word tables are fussy).
