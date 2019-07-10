@@ -23,7 +23,14 @@ This is my solution to business cards with an quirky edge or, as some would say,
 I have put together a very rough logo in the center and added my contact details to a single label template. I found this one below with a very quick google search so I'm sure there are better solutions with some more time however this one:
 
 - doesnt request sign-up before producing content as of June 2019
+
+![image-20190622122310281](../img/testshot.png)
+
 - this one matches the company stickers I brought = so that the printing will be guaranteed to line up??
+
+![image-20190622122856770](../img/another-test.png)
+
+
 
 I then printed the image which gave me a pdf to download or print. Which leads to a pdf of 36 labels ready to print for 50c in colour printing.
 

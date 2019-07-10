@@ -9,6 +9,8 @@ permlink: /draft=beech.html
 
 Just putting it here for now...
 
+This post has been generated from the includes folder of the website.
+
 ## Simulation
 
 {% include simulationnb.html %}
