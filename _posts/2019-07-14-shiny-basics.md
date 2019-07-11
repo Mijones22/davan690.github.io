@@ -5,7 +5,7 @@ subtitle: "A collection of resources for shiny apps in RStudio"
 use-site-title: true
 ---
 
-Shiny is exactly that currently. Its a shiny place to be. Here is the resources I am working from to intergrate shiny within this website. 
+Shiny is exactly that currently. Its a shiny place to be. Here is the resources I am working from to integrate shiny within this [website](https://www.ssnhub.com). 
 
 [Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) (who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
 
@@ -15,7 +15,7 @@ A strong publication maybe; decide for yourself [here](https://escholarship.org/
 
 ### Blogs
 
-Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-notes) but here are some extra ones I havent looked at in as much detail:
+Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-notes) but here are some extra ones I haven't looked at in as much detail:
 
 - Psych shiny [here](https://psyr.org/shiny.html)
 - General medium [blog on simple shiny](https://medium.com/@maloojinesh/shiny-for-beginners-780ce6a56846)
