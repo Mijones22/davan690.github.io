@@ -53,6 +53,11 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
 - https://github.com/davan690/awesome-shiny-extensions
 - https://github.com/davan690/awesome-rshiny
 
+#### RStudio examples I like
+
+- http://shiny.rstudio.com/gallery/superzip-example.html
+- 
+
 ## Tutorials
 
 Running shiny examples:
