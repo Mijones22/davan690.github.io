@@ -11,17 +11,28 @@ Shiny is exactly that currently. Its a shiny place to be. Here is the resources 
 
 ## Resources
 
+A strong publication maybe; decide for yourself [here](https://escholarship.org/uc/item/00d4q8cp)
+
 ### Blogs
 
 Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-notes) but here are some extra ones I havent looked at in as much detail:
 
 - Psych shiny [here](https://psyr.org/shiny.html)
 - General medium [blog on simple shiny](https://medium.com/@maloojinesh/shiny-for-beginners-780ce6a56846)
+    - https://towardsdatascience.com/get-started-with-examples-of-reactivity-in-in-shiny-apps-db409079dd11
 - RStudio’s basic vignette [here](https://shiny.rstudio.com/articles/basics.html)
+- Calpoly collection of shiny apps {here}(https://statistics.calpoly.edu/shiny#chaos2d)
+    - https://statistics.calpoly.edu/shiny#chaos2d
+    - http://shiny.calpoly.sh/MLE_Binomial/
+    - http://shiny.calpoly.sh/Prob_View/
+    - http://shiny.calpoly.sh/RandVarGen/
+    - https://calpolystat3.shinyapps.io/Hierarchical_Models/
+    - https://maps.calpoly.edu/place/bldg-122-V/@35.3075809,-120.6991072,12.9z
 
 ### Videos/media content
 
 - Youtube video on the [matter](https://www.youtube.com/watch?v=M7ywRJjt4Ko)
+- 41min tutorial from RStudio [here](https://www.rstudio.com/resources/webinars/how-to-start-with-shiny-part-1/)
 
 ## Tutorials
 
