@@ -5,7 +5,9 @@ subtitle: "Speaking analytics with shiny and R tools"
 use-site-title: true
 ---
 
-The interesting thing about this post is that this is not exactly what I am hoping for as an end product.
+The interesting thing about this post is that this is not exactly what I am hoping for as an end product. only possible because of https://leafletjs.com/
+https://en.wikipedia.org/wiki/Leaflet_(software)
+https://rstudio.github.io/leaflet/shiny.html
 
 {% include interactive-maps.html %}
 

@@ -11,6 +11,14 @@ use-site-title: true
 
 A KMZ file is just a zipped KML file, possibly with associated embedded images, icons, etc. So any program that supports KMZ files internally unzips them to access their KML files. That may be a reason why many open source programs do not bother supporting KMZ once KML support is implemented: you just need to use an additional unzipping library of your choice, to convert the KMZ to KML. The linked posts give some JavaScript-based solutions for unzipping.
 
+## Extracting data from my-maps data
+
+I like the idea of sticking with this process so that "google" will manage the security of the data instead of any open-source tools with security issues.
+
+
+## Resources
+
+
 
 ## My notes
 
