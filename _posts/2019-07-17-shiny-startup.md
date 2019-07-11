@@ -25,17 +25,40 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
 
 - Youtube video on the [matter](https://www.youtube.com/watch?v=M7ywRJjt4Ko)
 
+### Shiny gallery
+
+<div class="spacer"></div>
+<div class="row text-center">
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+      {%- assign gh-user = "davan690"-%}
+      {%- assign gh-project = "shiny-examples" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Project Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">A collection of scripts, code and vignettes for building shiny apps. </p>
+        <hr class="seperator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
+  </div>
+
+#### Other repos
+
+- https://github.com/davan690/awesome-shiny-extensions
+- https://github.com/davan690/awesome-rshiny
+
 ## Tutorials
 
 Running shiny examples:
 
 - Shiny from [RStudio](https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/)
-
-```{r}
-install.packages("shiny")
-library(shiny)
-runExample("01_hello")
-```
+- New advances in shiny [talk](https://vimeo.com/94184686)
 
 ### Shiny structure
 
@@ -44,6 +67,13 @@ Shiny apps are contained in a single script called app.R. The script `app.R` liv
 - a user interface object
 - a server function
 - a call to the shinyApp function
+
+
+```{r}
+install.packages("shiny")
+library(shiny)
+runExample("01_hello")
+```
 
 ## My extended notes from Deans tutorial
 
