@@ -2,14 +2,14 @@
 layout: page
 title: "Background"
 subtitle: "Building the Statistics Network"
-image: /img/centre-logo-white.jpg
-bigimg: /img/tools.jpg
+image: /img/tools.jpg
+bigimg: /img/p4f-ard.PNG
 permlink: /p4f2017.html
 ---
 
-The website began to develop from a competition that I competed in a few years ago (2017) at the University of Canberra. This comprtiton is called `Pitch for Funds` where researchers compete for up to $12 000$ of funding for there research. In this competition, I proposed a university-wide Statistical Support Network. [Here is my pitch](https://www.youtube.com/watch?v=2EXo0Iue1es&index=1&list=PLy1v_xE3ZjaA4PFdt_FJNBLljLAiuNTiV)
+The website began to develop from a competition that I competed in a few years ago (2017) at the University of Canberra. This competition is called `Pitch for Funds` where researchers compete for up to $12 000$ of funding for there research. In this competition, I proposed a university-wide Statistical Support Network. [Here is my pitch](https://www.youtube.com/watch?v=2EXo0Iue1es&index=1&list=PLy1v_xE3ZjaA4PFdt_FJNBLljLAiuNTiV)
 
-![p4f-2017-ard-UC](/img/p4f-ard.PNG)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2EXo0Iue1es?start=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Although I did not get funded that evening I did begin to build a series of relationships and collaborations that would lead to a model of this being funding until the current time at [UC].
 
