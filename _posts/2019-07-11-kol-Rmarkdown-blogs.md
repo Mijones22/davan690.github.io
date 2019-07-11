@@ -1,10 +1,12 @@
 ---
 title: Kol RMarkdown blogs 2019
 layout: post 
-tags: ["phd", "tools", "reproducibility"]
+tags: ["phd", "tools", "reproducibility", "rmd"]
 ---
 
-There are so many amazing blogs on the web for doing different variations of RMarkdown and its subsequent outcomes. Here is a collection of currently interesting markdown/RMarkdown blogs:
+There are so many amazing blogs on the web for doing different variations of `RMarkdown` and its subsequent outcomes.
+
+Here is a collection of the blog posts I am currently interested in:
 
 {: style="text-align: justify"}
 
@@ -18,6 +20,18 @@ Rafael A. Irizarry (2019-04-22)
 
 - [Reproducible research course](https://repr-res-r.readthedocs.io/en/latest/tut/rmarkdown.html): A more interesting RMarkdown online guide
 
-## Unique tools for RMarkdown
+## Difficult aspects of RMarkdown
+
+Although RMarkdown is amazingly powerful for reproducibility however there are several aspects I still struggle with on a daily basis.
+
+### Tables
 
 [Working with tables](https://cran.r-project.org/web/packages/summarytools/vignettes/Recommendations-rmarkdown.html) to produce summary tables can be hard at the best of times but this package is amazing if you can get the tables to render in the output format (word tables are fussy).
+
+### Figures
+
+[coming]
+
+### Word documents
+
+[coming]

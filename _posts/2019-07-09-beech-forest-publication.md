@@ -6,6 +6,8 @@ tags: ["phd", "invasive", "overview", "beech", "mice", "thesis"]
 image: /img/tools.jpg
 ---
 
+This is the collection of links needed to reproduce the first chapter of my phd project and the first project I have ever compiled on the web.
+
 [TOC]
 
 ## Status
