@@ -5,11 +5,11 @@ subtitle: "A collection of resources for the first steps of Shiny apps"
 use-site-title: true
 ---
 
-Shiny is exactly that currently. Its a shiny place to be. Here is the resources I am working from to intergrate shiny within this website.  Descover shiny [here](https://www.rstudio.com/products/shiny/)
+[<img src="https://www.rstudio.com/wp-content/uploads/2014/04/shiny.png" align="right" width="100">](https://www.rstudio.com)
+Its a shiny place to be. Here is the resources I am working from to intergrate shiny within this website.  Descover shiny [here](https://www.rstudio.com/products/shiny/)
 
 [video](https://vimeo.com/97466638)
-
-[Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) (who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
+Shiny is exactly that currently. [Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) (who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
 
 ## Resources
 
