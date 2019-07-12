@@ -3,12 +3,9 @@ layout: post
 title: "What is a Vignette?"
 subtitle: "Long-form documentation"
 use-site-title: true
-
 ---
 
 # FROM: http://r-pkgs.had.co.nz/vignettes.html
-
-
 
 More RMarkdown
 
