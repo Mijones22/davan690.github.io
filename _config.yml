@@ -29,6 +29,8 @@ navbar-links:
     - General Statistics: "general-statistics"
     - Ecological Statistics: "ecological-statistics"
     - Invasive species research: "invasive-species-research"
+    - AwesomeR: "awesome-r"
+    - AwesomeShiny: "awesome-rshiny"
   News:
     - Blogs: "all-posts"
     - Tags: "tags"
