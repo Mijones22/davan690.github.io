@@ -47,6 +47,7 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
       </a>
     </div>
   </div>
+</div>
 
 #### Other repos
 

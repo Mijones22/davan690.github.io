@@ -30,8 +30,6 @@ I have put together a very rough logo in the center and added my contact details
 
 ![image-20190622122856770](../img/another-test.png)
 
-
-
 I then printed the image which gave me a pdf to download or print. Which leads to a pdf of 36 labels ready to print for 50c in colour printing.
 
 ![1560933667281](../img/1560933667281.png)
