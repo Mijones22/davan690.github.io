@@ -7,7 +7,6 @@ permalink: /external-links.html
 ---
 
 <h4>External links</h4> 
-
 As I build my resources through this platform I will continue to add external resources. Here are a few I can think of currently.
 
 ###### *Learn R*
@@ -27,3 +26,7 @@ Just the raw documentation, believe it or not it is pretty good  at [github page
 
 ###### *My website*
 Just the raw documentation, believe it or not it is pretty good at [github pages]("https://www.ssnhub.com/")
+
+#### R course database
+
+Online [here](https://www.r-exercises.com/r-courses/)

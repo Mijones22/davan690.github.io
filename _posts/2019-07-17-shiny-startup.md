@@ -6,9 +6,10 @@ use-site-title: true
 ---
 
 [<img src="https://www.rstudio.com/wp-content/uploads/2014/04/shiny.png" align="right" width="100">](https://www.rstudio.com)
-Its a shiny place to be. Here is the resources I am working from to intergrate shiny within this website.  Descover shiny [here](https://www.rstudio.com/products/shiny/)
+Its a shiny place to be. Here is the resources I am working from to integrate shiny within this website.  Discover shiny [here](https://www.rstudio.com/products/shiny/)
 
-[video](https://vimeo.com/97466638)
+<iframe src="https://player.vimeo.com/video/97466638?color=428bca&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/97466638">Shiny Overview - 5:20</a> from <a href="https://vimeo.com/rstudioinc">RStudio, Inc.</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 Shiny is exactly that currently. [Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) (who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
 
 ## Resources
@@ -19,12 +20,11 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
 
 - Psych shiny [here](https://psyr.org/shiny.html)
 - General medium [blog on simple shiny](https://medium.com/@maloojinesh/shiny-for-beginners-780ce6a56846)
-- RStudio’s basic vignette [here](https://shiny.rstudio.com/articles/basics.html)
+- RStudios' basic vignette [here](https://shiny.rstudio.com/articles/basics.html)
 
 ### Videos/media content
 
-- Youtube video on the [matter](https://www.youtube.com/watch?v=M7ywRJjt4Ko)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M7ywRJjt4Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Shiny gallery
 
 <div class="spacer"></div>
@@ -42,20 +42,18 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
         <hr class="seperator">
         <p class="text-muted">A collection of scripts, code and vignettes for building shiny apps. </p>
         <hr class="seperator">
-        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
-      </a>
     </div>
   </div>
+</div>
 
 #### Other repos
 
-- https://github.com/davan690/awesome-shiny-extensions
-- https://github.com/davan690/awesome-rshiny
+- [Shiny extentions in a repo](https://github.com/davan690/awesome-shiny-extensions)
+- [My shiny cheats](https://github.com/davan690/awesome-rshiny). I am slowly building this up from the `amesome-r` repository
 
 #### RStudio examples I like
 
-- http://shiny.rstudio.com/gallery/superzip-example.html
+- [Using super-zips as an example](http://shiny.rstudio.com/gallery/superzip-example.html)
 - 
 
 ## Tutorials
@@ -64,6 +62,11 @@ Running shiny examples:
 
 - Shiny from [RStudio](https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/)
 - New advances in shiny [talk](https://vimeo.com/94184686)
+- `Tidyverse` in the GIS [world](https://resources.rstudio.com/tidyverse/spatial-data-science-in-the-tidyverse)
+
+## My extended notes from Deans tutorial
+
+For the most part the aim of this work is to produce some simple comparisons between groups of samples after accounting for the bias and other estimation issues. I will do this with the examples below:
 
 ### Shiny structure
 
@@ -73,14 +76,10 @@ Shiny apps are contained in a single script called app.R. The script `app.R` liv
 - a server function
 - a call to the shinyApp function
 
-
 ```{r}
 install.packages("shiny")
 library(shiny)
 runExample("01_hello")
 ```
 
-## My extended notes from Deans tutorial
-
-For the most part the aim of this work is to produce some simple comparisons between groups of samples after accounting for the bias and other estimation issues. I will do this with the examples below:
-
+## 
