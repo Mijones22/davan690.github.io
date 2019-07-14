@@ -5,17 +5,35 @@ subtitle: "Speaking analytics with shiny and R tools"
 use-site-title: true
 ---
 
-The interesting thing about this post is that this is not exactly what I am hoping for as an end product. only possible because of https://leafletjs.com/
-https://en.wikipedia.org/wiki/Leaflet_(software)
-https://rstudio.github.io/leaflet/shiny.html
+The interesting thing about this post is that this is not exactly what I am hoping for as an end product. only possible because of these tools ([leaflet](https://leafletjs.com/); wiki [on the matter](https://en.wikipedia.org/wiki/Leaflet_(software)) and [shiny](https://rstudio.github.io/leaflet/shiny.html) info).
 
 {% include interactive-maps.html %}
 
 ## Extra resources
 
-http://zevross.com/blog/2014/09/30/use-the-amazing-d3-library-to-animate-a-path-on-a-leaflet-map/
+To begin with check this is working in your local RStudio enviroment
 
-#### From leaflet github account
+1. Install the required packages. You need a recent version of the GDAL, GEOS, Proj.4, and UDUNITS libraries installed for this to work on Mac and Linux. More information on that at https://github.com/r-spatial/sf#installling.
+
+```
+devtools::install_github("robinlovelace/geocompr")
+```
+
+2. Load the ones we need:
+
+```
+library(spData)library(dplyr)library(sf)
+```
+
+3. Check it's all working, e.g. with this command:
+
+```
+world %>%  plot()
+```
+
+And some blogging on the matter [here](http://zevross.com/blog/2014/09/30/use-the-amazing-d3-library-to-animate-a-path-on-a-leaflet-map/).
+
+#### *Content below from leaflet github account*
 
 ## Using Basemaps
 

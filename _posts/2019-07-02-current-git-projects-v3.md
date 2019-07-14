@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "GIThub repo's arebuilding"
+title: "GIThub repo's are building"
 subtitle: "Projects under development"
 show-avatar: true
 css: '/css/extend-home.css'
 tags: ["phd", "general", "overview", "website"]
 ---
+
+During the process of the recent coding adventures I have been buiding the following repositories.
 
 <div class="spacer"></div>
 <div class="row text-center">

@@ -16,7 +16,10 @@ Many of the options I wanted to work just dont!.
 This is a simple vignette template rendered in RStudio as an html and copied to the `_includes` folder.
 
 *June 2019*
+
 BOOKDOWN all the way....
+
+
 
 ## My notes
 
