@@ -31,9 +31,10 @@ navbar-links:
     - Invasive species research: "invasive-species-research"
     - AwesomeR: "awesome-r"
     - AwesomeShiny: "awesome-rshiny"
+    - Shiny example project: "shiny-salesman"
   News:
-    - Blogs: "all-posts"
-    - Tags: "tags"
+    - A full list of blogs: "all-posts"
+    - Tag index: "tags"
     - 1st Manuscript: "beech-forest-dynamics"
   Info:
     - Background: "background" 
