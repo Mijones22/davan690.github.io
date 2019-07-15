@@ -1,13 +1,15 @@
 ---
 layout: post
-title: ""
-subtitle: ""
+title: Untitled
 image: /img/...
 permlink: /first-post.html
-tags: ["website", "overview", "general"]
+tags:
+  - website
+  - overview
+  - general
 bigimg: /img/...
 use-site-title: true
-
+published: true
 ---
 
 ```{r}
@@ -30,7 +32,7 @@ use-site-title: true
 
 Sometimes you may not want to write a book with the `bookdown` project, but a single long-form article or report instead. 
 
-Usually what you do is in `RStudio` you would call `rmarkdown::render()` with a certain output format. The main features missing there are the automatic numbering of `figures/tables/equations`, and cross-referencing `figures/tables/equations/` sections. We have factored out these features from **bookdown**, so that you can use them without having to prepare a book of multiple `Rmd` files.
+Usually what you do is in `RStudio` you would like call `rmarkdown::render()` with a certain output format. The main features missing there are the automatic numbering of `figures/tables/equations`, and cross-referencing `figures/tables/equations/` sections. We have factored out these features from **bookdown**, so that you can use them without having to prepare a book of multiple `Rmd` files.
 
 The functions `html_document2()`, `tufte_html2()`, `pdf_document2()`, `word_document2()`, `tufte_handout2()`, and `tufte_book2()` are designed for this purpose. 
 
