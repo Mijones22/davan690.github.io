@@ -3,7 +3,6 @@ layout: post
 title: "Regressions for word docx"
 subtitle: "Tables and figures"
 use-site-title: true
-comments: true
 ---
 
 Here are some blogs on where this situation is:
