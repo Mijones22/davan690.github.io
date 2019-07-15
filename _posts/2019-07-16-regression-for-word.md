@@ -3,12 +3,13 @@ layout: post
 title: "Regressions for word docx"
 subtitle: "Tables and figures"
 use-site-title: true
+comments: true
 ---
 
 Here are some blogs on where this situation is:
 
 - [A blog description of one option](https://datascienceplus.com/how-to-export-regression-results-from-r-to-ms-word/)
-- 
+ 
 
 ### Cheatsheet  steps
 
