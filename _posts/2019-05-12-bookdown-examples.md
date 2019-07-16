@@ -2,6 +2,8 @@
 title: Bookdown example blogs 2019
 layout: post
 tags: ["phd", "tools", "reproducibility"]
+image: /img/tools.jpg
+bigimg: /img/tools.jpg
 ---
 
 There are so many amazing blogs on the web for doing different variations of RMarkdown but less on bookdown and converting .md to online books/ebooks. Because this is in the same language as  `Rmd` and developers using the `gitflow` I apply to insure my research projects are reproducible. I believe that this is a considerable step in the right direction for science.
