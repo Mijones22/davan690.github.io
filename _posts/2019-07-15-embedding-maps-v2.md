@@ -9,7 +9,8 @@ Below is the public mymaps map that can be modified an worked on from within the
 
 <iframe src="https://www.google.com.au/maps/d/u/0/embed?mid=1DAgemW-rkdMHTO8fxnbvbSVF4H0XNLd_" width="640" height="480"></iframe>
 
-NOTE: This can currently me modified and changed by anyone with the link. As it comes more important for the dataset to not be modified by others we will tighten this process up using the leaflet and shiny app process we are using for the mapping and analysis at the bottom of this post.
+{: .box-note}
+**Note:** This can currently me modified and changed by anyone with the link. As it comes more important for the dataset to not be modified by others we will tighten this process up using the leaflet and shiny app process we are using for the mapping and analysis at the bottom of this post.
 
 So far we have saved a `leaflet` `rmd` file as an html file and pasted it from the includes folder of the website. We will tighten this up too. :)
 
@@ -24,6 +25,7 @@ To begin with check this is working in your local RStudio enviroment
 ```
 devtools::install_github("robinlovelace/geocompr")
 ```
+
 
 2. Load the ones we need:
 
