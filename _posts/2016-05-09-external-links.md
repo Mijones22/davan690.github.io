@@ -2,6 +2,8 @@
 title: "External resources"
 subtitle: "There are sooo many good ones out there"
 layout: post
+image: /img/tools.jpg
+bigimg: /img/tools.jpg
 tags: ["r", "rmd", "RStudio", "tools", "general"]
 permalink: /external-links.html
 ---

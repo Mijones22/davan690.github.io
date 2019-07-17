@@ -10,17 +10,19 @@ Its a shiny place to be. Here is the resources I am working from to integrate sh
 
 <iframe src="https://player.vimeo.com/video/97466638?color=428bca&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/97466638">Shiny Overview - 5:20</a> from <a href="https://vimeo.com/rstudioinc">RStudio, Inc.</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-Shiny is exactly that currently. [Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) (who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
+Shiny is exactly that currently. 
+
+[Dean](https://deanattali.com/blog/building-shiny-apps-tutorial/) who has build the template for this website) has a tutorial on this and you can even hire him [here](https://deanattali.com/shiny/) if you need any more done. I have just been teaching myself with the resources below by extending his tutorial with my own personal notes.
 
 ## Resources
 
 ### Blogs
 
-Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-notes) but here are some extra ones I havent looked at in as much detail:
+Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-notes) but here are some extra ones I haven't looked at in as much detail:
 
 - Psych shiny [here](https://psyr.org/shiny.html)
 - General medium [blog on simple shiny](https://medium.com/@maloojinesh/shiny-for-beginners-780ce6a56846)
-- RStudios' basic vignette [here](https://shiny.rstudio.com/articles/basics.html)
+- RStudios basic vignette [here](https://shiny.rstudio.com/articles/basics.html)
 
 ### Videos/media content
 
@@ -49,7 +51,10 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
 #### Other repos
 
 - [Shiny extentions in a repo](https://github.com/davan690/awesome-shiny-extensions)
-- [My shiny cheats](https://github.com/davan690/awesome-rshiny). I am slowly building this up from the `amesome-r` repository
+
+- [My shiny cheats](https://github.com/davan690/awesome-rshiny). 
+
+  I am slowly building this up from the `amesome-r` repository
 
 #### RStudio examples I like
 
@@ -72,14 +77,14 @@ For the most part the aim of this work is to produce some simple comparisons bet
 
 Shiny apps are contained in a single script called app.R. The script `app.R` lives in a directory (for example, newdir/) and the app can be run with `runApp("newdir")`. `app.R` has three components:
 
-- a user interface object
-- a server function
-- a call to the shinyApp function
+1. a `user interface` object
+
+2. a `server` function
+
+3. a call to the `shinyApp` function
 
 ```{r}
 install.packages("shiny")
 library(shiny)
 runExample("01_hello")
 ```
-
-## 
