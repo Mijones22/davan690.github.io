@@ -22,3 +22,5 @@ Here is a way of collecting simple survey data quickly without being responsible
 Create your own user feedback survey [here](https://www.surveymonkey.com). However, annoying limitations with a free account:
 - 10 question limit
 - Survey monkey advertising
+
+Open source options do exist ([here are a few examples](https://opensource.com/article/17/2/tools-online-surveys-polls)) however as I have not investigated the security of the data in these options I will test these concepts through a secure publicly liable platform (Survey monkey) for now.
