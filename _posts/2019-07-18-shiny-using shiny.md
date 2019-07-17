@@ -14,10 +14,6 @@ Its a shiny place to be. Discover shiny [here](https://www.rstudio.com/products/
 
 - All my key resources for shiny can now be found in the awesome-r repository [here]() or my version of the book on the website www.ssnhub.com/awesome-shiny
 
-
-
-
-
 ## My notes
 
 This is a blog example of a process I have recently done to fit a simple shiny application to a fellow students' dataset using another projects shiny app. 
