@@ -19,4 +19,6 @@ Here is a way of collecting simple survey data quickly without being responsible
 
 ## Resources
 
-Create your own user feedback survey [here](https://www.surveymonkey.com)
+Create your own user feedback survey [here](https://www.surveymonkey.com). However, annoying limitations with a free account:
+- 10 question limit
+- Survey monkey advertising
