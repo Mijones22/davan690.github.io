@@ -2,10 +2,10 @@
 layout: post
 title: "Testing out survey monkey"
 subtitle: "A simple data collection method"
-image: /img/...
+image: /img/tools.jpg
 permlink: /first-post.html
 tags: ["website", "overview", "general"]
-bigimg: /img/...
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
