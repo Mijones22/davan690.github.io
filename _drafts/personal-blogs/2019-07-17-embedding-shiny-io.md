@@ -9,7 +9,7 @@ bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
-Here is a simple embedding of a shiny app. The one embedded below is a really kol DIY ANOVA written by *Danilo Pecorino*.
+Here is a simple embedding of a shiny app with the salesman shiny app.
 
 <iframe width="450" height="400" scrolling="yes" frameborder="no"  src="https://pecostats.shinyapps.io/DIY_ANOVA/"> </iframe>
 

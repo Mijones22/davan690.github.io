@@ -32,9 +32,9 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        <a href="{{ site.github.repository_url }}{{ site.branch }}/{{ page.path }}"> Edit this page on GitHub </a>
+        <a href="{{ site.branch }}{{ page.path }}"> Edit this page on GitHub </a>
           <!-- Edit current page -->
-  <a href="{% if page.path %}//prose.io/#davan690/davan690.github.com/master/{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}" target="_blank">Edit this page in Prose.io</a>
+  <a href="{% if page.path %}//prose.io/#davan690/davan690.github.com/master                              /{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}" target="_blank">Edit this page in Prose.io</a>
   
   <!-- Add post -->
   <a href="//prose.io/#davan690/davan690.github.com/new/master/_posts" target="_blank">Add a post with Prose.io</a>{{ content }}
