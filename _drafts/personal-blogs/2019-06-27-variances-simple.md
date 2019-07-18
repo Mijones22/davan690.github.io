@@ -9,7 +9,11 @@ bigimg: /img/...
 use-site-title: true
 ---
 
-http://dwoll.de/rexrepos/posts/ancova.html
+## Resources
+
+Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Shiny.
+
+- http://dwoll.de/rexrepos/posts/ancova.html
 https://stats.stackexchange.com/questions/51780/how-to-perform-an-ancova-in-r
 https://rstudio-pubs-static.s3.amazonaws.com/318136_38c7ac7c0cae412fbbe32a05e405b60f.html
 http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pdf

@@ -11,7 +11,11 @@ use-site-title: true
 
 Here is a simple embedding of a shiny app with the salesman shiny app.
 
-<iframe width="450" height="400" scrolling="yes" frameborder="no"  src="https://pecostats.shinyapps.io/DIY_ANOVA/"> </iframe>
+<iframe width="750" height="400" scrolling="yes" frameborder="no"  src="https://gallery.shinyapps.io/shiny-salesman/"> </iframe>
+
+And the ANOVA DIY app from the Shiny showcase:
+
+<iframe width="650" height="500" scrolling="yes" frameborder="no"  src="https://pecostats.shinyapps.io/DIY_ANOVA/"> </iframe>
 
 ## Resources
 
