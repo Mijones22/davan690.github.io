@@ -28,14 +28,15 @@ navbar-links:
   Resources:
     - General Statistics: "general-statistics"
     - Ecological Statistics: "ecological-statistics"
-    - Health statistics: "https://bookdown.org/taragonmd/phds/#"
+    - Health statistics: "https://bookdown.org/taragonmd/phds/"
 
   News:
     - Invasive species research: "invasive-species-research"
     - Ecological text: "stats-for-bio"
     - R companion: "https://bookdown.org/ageraci/STAT160Companion/"
     - AwesomeShiny: "awesome-rshiny"
-    - Shiny example: "shiny-salesman"- A full list of blogs: "all-posts"
+    - Shiny example: "shiny-salesman"
+    - A full list of blogs: "all-posts"
     - Tag index: "tags"
     - 1st Manuscript: "beech-forest-dynamics"
   Info:
