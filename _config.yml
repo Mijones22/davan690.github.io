@@ -39,6 +39,7 @@ navbar-links:
     - A full list of blogs: "all-posts"
     - Tag index: "tags"
     - 1st Manuscript: "beech-forest-dynamics"
+
   Info:
     - Background: "background" 
     - Donate: "donate"
