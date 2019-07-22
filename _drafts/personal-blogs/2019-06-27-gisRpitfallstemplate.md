@@ -17,7 +17,6 @@ use-site-title: true
 <div class="container">
 
 <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><span class="navbar-brand">[geocompkg | metapackage for the book Gecomputation with R](../index.html) <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.75</span></span></div>
-
 <div id="navbar" class="navbar-collapse collapse">
 
 *   [Home](https://geocompr.github.io/)
@@ -48,7 +47,6 @@ use-site-title: true
 <small class="dont-index">Source: [`vignettes/tidyverse-pitfalls.Rmd`](https://github.com/geocompr/geocompkg/blob/master/vignettes/tidyverse-pitfalls.Rmd)</small>
 
 <div class="hidden name">`tidyverse-pitfalls.Rmd`</div>
-
 </div>
 
 <div id="prerequisites" class="section level2">
@@ -149,12 +147,12 @@ Just loading the tidyverse reveals a pitfall of using spatial data with the tidy
 </div>
 
     ## ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
-
+    
     ## ✔ ggplot2 3.1.0       ✔ purrr   0.3.1  
     ## ✔ tibble  2.0.1       ✔ dplyr   0.8.0.1
     ## ✔ tidyr   0.8.3       ✔ stringr 1.4.0  
     ## ✔ readr   1.3.1       ✔ forcats 0.4.0
-
+    
     ## ── Conflicts ─────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ tidyr::extract() masks raster::extract()
     ## ✖ dplyr::filter()  masks stats::filter()

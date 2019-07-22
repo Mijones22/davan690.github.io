@@ -17,6 +17,7 @@ You can host your book on GitHub for free via GitHub Pages ([https://pages.githu
 
 # create a hidden file .nojekyll
 touch .nojekyll
+
 # add to git here because will not show up in RStudio
 git add .nojekyll
 ```
