@@ -3,10 +3,10 @@ title: "Equation Examples in RMarkdown"
 output: pdf_document
 layout: post
 subtitle: "WILD 502 - Jay Rotella"
-image: /img/...
-permlink: /first-post.html
+image: /img/tools.jpg
+permlink: /equations.html
 tags: ["website", "overview", "general"]
-bigimg: /img/...
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
@@ -34,9 +34,7 @@ $$A_{m,n} =
 
 ## Statistics
 
-The binomial probability: $$f(y|N,p) = \frac{N!}{y!(N-y)!}\cdot p^y \cdot (1-p)^{N-y} = {{N}\choose{y}} \cdot p^y \cdot (1-p)^{N-y}$$
-
-To calculate the **mean** of \textit{n} observations of variable \textit{x}, you can use: $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n}x_{i}$$ 
+To calculate the **mean** of \textit{n} observations of variable \textit{x}, you can use: $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n}x_{i}$$
 
 Note that this equation looks quite nice above where it's in display math mode. It is more compact but not quite as nice looking if we present it using inline mode, e.g., $\bar{x} = \frac{1}{n} \sum_{i=1}^{n}x_{i}$.
 
@@ -55,8 +53,8 @@ There are helpful online editors to help you learn code for various equations yo
 $$
 y_i = \beta_0 + \beta_1(site_i) + \beta_2(treatment_i) + \epsilon_i
 $$
-![1563841120280](./img/equation-writing-typora.png)
+![1563841120280](../img/equation-writing-typora.png)
 
 And then the code can be found in an online editor like this one:
 
-<iframe width="450" height="400" scrolling="yes" frameborder="no"  src="http://visualmatheditor.equatheque.net/VisualMathEditor.html"> </iframe>
+<iframe width="650" height="400" scrolling="yes" frameborder="no"  src="http://visualmatheditor.equatheque.net/VisualMathEditor.html"> </iframe>
