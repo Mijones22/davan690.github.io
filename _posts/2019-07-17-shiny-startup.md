@@ -31,30 +31,7 @@ Jake's short guide [here](https://www.jakeruss.com/cheatsheets/stargazer/#quick-
 ### Videos/media content
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M7ywRJjt4Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-### Shiny gallery
-
-<div class="spacer"></div>
-<div class="row text-center">
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-      {%- assign gh-user = "davan690"-%}
-      {%- assign gh-project = "shiny-examples" -%}
-      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Project Page">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
-          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">A collection of scripts, code and vignettes for building shiny apps. </p>
-        <hr class="seperator">
-    </div>
-  </div>
-</div>
-
-#### Other repos
-
-- [Shiny extentions in a repo](https://github.com/davan690/awesome-shiny-extensions)
+[Shiny extentions in a repo](https://github.com/davan690/awesome-shiny-extensions)
 
 - [My shiny cheats](https://github.com/davan690/awesome-rshiny). 
 
