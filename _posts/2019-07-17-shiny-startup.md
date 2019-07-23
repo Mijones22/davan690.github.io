@@ -2,6 +2,10 @@
 layout: post
 title: "Shiny starting"
 subtitle: "A collection of resources for the first steps of Shiny apps"
+image: /img/tools.jpg
+permlink: /shiny-apps.html
+tags: ["website", "overview", "general", "R", "tools", "shiny"]
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 

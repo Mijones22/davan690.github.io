@@ -2,8 +2,11 @@
 layout: post
 title: "Regressions for word docx"
 subtitle: "Tables and figures"
+image: /img/tools.jpg
+permlink: /regression-rendered-docx.html
+tags: ["website", "overview", "general", "R", "tools", "docx"]
+bigimg: /img/tools.jpg
 use-site-title: true
-comments: true
 ---
 
 Here are some blogs on where this situation is:

@@ -11,6 +11,10 @@ use-site-title: true
 
 As I am working through learning shiny I have created this blog to start from basics.
 
+1. a `user interface` object
+2. a `server` function
+3. a call to the `shinyApp` function
+
 ### Libraries
 
 ```

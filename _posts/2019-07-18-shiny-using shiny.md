@@ -2,6 +2,11 @@
 layout: post
 title: "Shiny example of sharing code"
 subtitle: "An example of a simple shiny project"
+tags: ["website", "overview", "general", "R", "tools", "shiny"]
+image: /img/tools.jpg
+permlink: /shiny-sharing.html
+tags: ["website", "overview", "general", "R", "tools", "shiny"]
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
