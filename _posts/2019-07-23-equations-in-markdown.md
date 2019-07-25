@@ -58,3 +58,7 @@ $$
 And then the code can be found in an online editor like this one:
 
 <iframe width="650" height="400" scrolling="yes" frameborder="no"  src="http://visualmatheditor.equatheque.net/VisualMathEditor.html"> </iframe>
+
+Here is a gist or two:
+
+<script src="https://gist.github.com/davan690/bd2e169abfda7abea0280938afd6c871.js"></script>
