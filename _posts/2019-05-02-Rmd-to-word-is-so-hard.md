@@ -407,7 +407,130 @@ and only the pressure variable has a reformatted power of ten because it is the 
 
 
 
+### docxtools package
 
+| T    |                                                              |
+| ---- | ------------------------------------------------------------ |
+|      | ---                                                          |
+|      | output: github_document                                      |
+|      | resource_files:                                              |
+|      | - man/figures/README-004-1.png                               |
+|      | - man/figures/README-005-1.png                               |
+|      | ---                                                          |
+|      |                                                              |
+|      | ```{r setup, echo = FALSE, message = FALSE}                  |
+|      | knitr::opts_chunk$set(                                       |
+|      | echo = TRUE, # varies from one Rmd to another                |
+|      | message = FALSE,                                             |
+|      | warning = FALSE,                                             |
+|      | collapse = TRUE,                                             |
+|      | comment = "#>",                                              |
+|      | error = TRUE,                                                |
+|      | purl = FALSE,                                                |
+|      | fig.width = 6,                                               |
+|      | fig.asp = 1 / 1.6,                                           |
+|      | out.width = "70%",                                           |
+|      | fig.align = "center",                                        |
+|      | fig.path = "man/figures/README-"                             |
+|      | )                                                            |
+|      | knitr::knit_hooks$set(inline = function(x) {                 |
+|      | if (!is.numeric(x)) {                                        |
+|      | x                                                            |
+|      | } else if (x >= 10000) {                                     |
+|      | prettyNum(round(x, 2), big.mark = ",")                       |
+|      | } else {                                                     |
+|      | prettyNum(round(x, 2))                                       |
+|      | }                                                            |
+|      | })                                                           |
+|      | options(tibble.print_min = 8L, tibble.print_max = 8L)        |
+|      | ```                                                          |
+|      |                                                              |
+|      | **# docxtools <img src="man/figures/logo.png" align="right" />** |
+|      |                                                              |
+|      | [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/docxtools)](http://cran.r-project.org/package=docxtools) |
+|      | [![cran checks](https://cranchecks.info/badges/summary/rhub)](https://cran.r-project.org/web/checks/check_results_rhub.html) |
+|      | [![Build Status](https://travis-ci.org/graphdr/docxtools.svg?branch=master)](https://travis-ci.org/graphdr/docxtools) |
+|      | [![status](https://tinyverse.netlify.com/badge/docxtools)](https://CRAN.R-project.org/package=docxtools) |
+|      | [![Coverage Status](https://img.shields.io/codecov/c/github/graphdr/docxtools/master.svg)](https://codecov.io/github/graphdr/docxtools?branch=master) |
+|      | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) |
+|      | [![](https://cranlogs.r-pkg.org/badges/grand-total/docxtools)](https://cran.r-project.org/package=docxtools) |
+|      |                                                              |
+|      | **## Overview**                                              |
+|      |                                                              |
+|      | docxtools is a small set of helper functions for using R Markdown to create documents in docx format, especially documents for use in a classroom or workshop setting. These are particularly useful when one tries to do one's own work reproducibly but has collaborators who work with Office software exclusively. |
+|      |                                                              |
+|      | - `format_engr()` to apply engineering format to numbers     |
+|      | <!-- - `align_pander()` to print a table of numbers using pander (deprecated) --> |
+|      | - `put_gap()`  to create white space in a document           |
+|      | - `put_axes()` to place unlabeled axes in a document         |
+|      |                                                              |
+|      | **## Installation**                                          |
+|      |                                                              |
+|      | From CRAN,                                                   |
+|      |                                                              |
+|      | ```r                                                         |
+|      | install.packages("docxtools")                                |
+|      | ```                                                          |
+|      |                                                              |
+|      | Or you can obtain the most recent development version from GitHub. |
+|      |                                                              |
+|      | ```r                                                         |
+|      | install.packages("devtools")                                 |
+|      | devtools::install_github("graphdr/docxtools")                |
+|      | ```                                                          |
+|      |                                                              |
+|      | **## Usage**                                                 |
+|      |                                                              |
+|      | The `density` data set is part of the package.               |
+|      |                                                              |
+|      | ```{r 003}                                                   |
+|      | library(docxtools)                                           |
+|      | data("density")                                              |
+|      | density                                                      |
+|      | ```                                                          |
+|      |                                                              |
+|      | `format_engr()` applies engineering notation to numeric variables, assigns significant digits, and adjusts for ambiguous trailing zeros. |
+|      |                                                              |
+|      | ```{r}                                                       |
+|      | y <- format_engr(density, sigdig = c(5, 4, 0, 4), ambig_0_adj = TRUE) |
+|      | ```                                                          |
+|      |                                                              |
+|      | For printing the table, I suggest using `knitr::kable()`. (Note: The table can be seen correctly rendered at the package [website](https://graphdr.github.io/docxtools/).)  docxtools < 0.1.4 used the `align_pander()` function that is now deprecated and soon to be defunct. |
+|      |                                                              |
+|      | ```r                                                         |
+|      | knitr::kable(y, align = "ccrrrr")                            |
+|      | ```                                                          |
+|      |                                                              |
+|      | ```{r echo = FALSE}                                          |
+|      | # latex, html, markdown, pandoc, and rst;                    |
+|      | knitr::kable(y, align = "ccrrrr", format = "html")           |
+|      | ```                                                          |
+|      |                                                              |
+|      | Using `put_gap()` with knitr and R markdown, the gap height is specified in the R code-chunk header. |
+|      |                                                              |
+|      | <pre class="r"><code>```{r fig.height = 0.75}                |
+|      | # a gap with a border                                        |
+|      | put_gap(col = "gray", fill = NULL)                           |
+|      | <code>```</code></code></pre>                                |
+|      |                                                              |
+|      | ```{r 004, fig.asp = 0.75 / 6, echo = FALSE}                 |
+|      | # a gap with a border                                        |
+|      | put_gap(col = "gray", fill = NULL)                           |
+|      | ```                                                          |
+|      |                                                              |
+|      | For `put_axes()` with knitr and R markdown, the axis height is specified in the R code-chunk header. |
+|      |                                                              |
+|      | <pre class="r"><code>```{r fig.height = 2}                   |
+|      | # first quadrant axes                                        |
+|      | put_axes(1, col = "blue", size = 0.5)                        |
+|      | <code>```</code></code></pre>                                |
+|      |                                                              |
+|      | ```{r 005, fig.width = 2, fig.asp = 1, out.width = "33%", echo = FALSE} |
+|      | # first quadrant axes                                        |
+|      | put_axes(1, col = "blue", size = 0.5)                        |
+|      | ```                                                          |
+|      |                                                              |
+|      |                                                              |
 
 
 

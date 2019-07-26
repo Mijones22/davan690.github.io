@@ -1,14 +1,16 @@
 ---
-title: ""
+title: "ASking for data in the health sector"
 output: pdf_document
 layout: post
-subtitle: ""
-image: /img/...
+subtitle: "A simple example from a recent online course"
+image: /img/tools.jpg
 permlink: /first-post.html
 tags: ["website", "overview", "general"]
-bigimg: /img/...
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
+
+For a recent assignment for statistical health we were asked to practice a data enquiry. Just wondering what other experiences of this in real life have been like??
 
 ## My notes
 
