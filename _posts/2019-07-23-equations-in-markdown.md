@@ -12,6 +12,11 @@ use-site-title: true
 
 An important note here is that for some markdown equations using `$$ $$` can have issues rendering as I had with `gps` co-ordinates recently.
 
+These equations will not work without installing MathJax to use when compiling your html documents for the web. Here are a few previous posts that helped me work through it:
+
+- Math on the web [here]()
+- The one minute rundown for jekyll [here]()
+
 ## Getting started with equations
 
 We can write fractions: $\frac{2}{3}$. We can also handle things like estimated population growth rate, e.g., $\hat{\lambda}=1.02$. And, $\sqrt{4}=2$.
@@ -58,7 +63,6 @@ $$
 And then the code can be found in an online editor like this one:
 
 <iframe width="650" height="400" scrolling="yes" frameborder="no"  src="http://visualmatheditor.equatheque.net/VisualMathEditor.html"> </iframe>
-
 Here is a gist or two:
 
 <script src="https://gist.github.com/davan690/bd2e169abfda7abea0280938afd6c871.js"></script>
