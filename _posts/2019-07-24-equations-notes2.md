@@ -1,18 +1,16 @@
 ---
-title: "Blog ideas 2.2"
-subtitle: "A list of snaps"
+title: "A one minute guide to MathJax"
+subtitle: "A simple option for Beautiful template"
 layout: post
 tags: ["overview", "website", "research", "tools"]
-image: /img/center-logo-white.png
-bigimg: /img/
+image: /img/tools.jpg
+bigimg: /img/tools.jpg
 permlink: fun-and-games2.html
 ---
 
 A short rundown for math in jekyll. This is also an overlap for RMarkdown, bookdown and blogdown math...
 
-An overall guide is here but it is very complex for the non-coding like I find.
-
-http://docs.mathjax.org/en/latest/
+An overall guide is here but it is very complex for the non-coding like I find. http://docs.mathjax.org/en/latest/
 
 ## one Minute Guide to Embed Math
 

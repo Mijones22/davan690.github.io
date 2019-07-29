@@ -1,8 +1,8 @@
 ---
-title: "Equation Examples in RMarkdown"
+title: "Equation Examples v1"
 output: pdf_document
 layout: post
-subtitle: "WILD 502 - Jay Rotella"
+subtitle: "For Jekyll and in RMarkdown"
 image: /img/tools.jpg
 permlink: /equations.html
 tags: ["website", "overview", "general"]
@@ -63,6 +63,3 @@ $$
 And then the code can be found in an online editor like this one:
 
 <iframe width="650" height="400" scrolling="yes" frameborder="no"  src="http://visualmatheditor.equatheque.net/VisualMathEditor.html"> </iframe>
-Here is a gist or two:
-
-<script src="https://gist.github.com/davan690/bd2e169abfda7abea0280938afd6c871.js"></script>

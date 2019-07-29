@@ -1,10 +1,10 @@
 ---
-title: "Blog ideas 2.2"
-subtitle: "A list of snaps"
+title: "Equations v2"
+subtitle: "Some simple options using jekyll without beautiful template"
 layout: post
 tags: ["overview", "website", "research", "tools"]
-image: /img/center-logo-white.png
-bigimg: /img/
+image: /img/tools.jpg
+bigimg: /img/tools.jpg
 permlink: fun-and-games2.html
 ---
 
