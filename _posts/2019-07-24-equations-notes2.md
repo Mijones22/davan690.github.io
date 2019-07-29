@@ -38,8 +38,6 @@ defaults:
 
 3. Use `$$ ... $$` for display math in your posts! Inline math is hard to get working with `\( ... \)` working. Possibly, \ is stripped in Markdown (?). In any case, `$ ... $` does **not** work by default as it's disabled by MathJax; again, learn more at [MathJax' docs on putting mathematics on a web page](https://docs.mathjax.org/en/latest/start.html#putting-mathematics-in-a-web-page).
 
-
-
 ## Resources
 
 - MathJax: [Home](https://www.mathjax.org/) / [Using the MathJax Content Delivery Network (CDN)](http://docs.mathjax.org/en/latest/start.html#using-the-mathjax-content-delivery-network-cdn) / [Using MathJax in a Theme File](http://docs.mathjax.org/en/latest/misc/platforms.html?highlight=jekyll#using-mathjax-in-a-theme-file)
