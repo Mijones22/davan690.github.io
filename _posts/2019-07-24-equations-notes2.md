@@ -10,9 +10,13 @@ permlink: fun-and-games2.html
 
 A short rundown for math in jekyll. This is also an overlap for RMarkdown, bookdown and blogdown math...
 
+An overall guide is here but it is very complex for the non-coding like I find.
+
+http://docs.mathjax.org/en/latest/
+
 ## one Minute Guide to Embed Math
 
-1. Get the CDN link for the MathJax version/variant you desire, e.g. `https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML`
+1. Get the CDN link for the MathJax version/variant you desire from , e.g. `https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML`
 
    Despite the given version `2.7.5`, this always references the **latest** version! Learn more at [MathJax' getting started guide](https://www.mathjax.org/#gettingstarted).
 
@@ -57,3 +61,75 @@ The above notes are extended from a blog post from by [Dean Attali](https://gith
 
 https://github.com/daattali/beautiful-jekyll/issues/195
 
+
+
+#### installing `mathjax`
+
+The easiest way to get `MathJax` and keep it up to date is to use the [Git](http://git-scm.com/) version control system to access our [GitHub repository](https://github.com/mathjax/MathJax). Use the command
+
+```
+git clone https://github.com/mathjax/MathJax.git MathJax
+```
+
+to obtain and set up a copy of MathJax.
+
+Whenever you want to update MathJax, you can now use
+
+```
+cd MathJax
+git remote show origin
+```
+
+to check if there are updates to MathJax (this will print several lines of data, but the last line should tell you if your copy is up to date or out of date). If MathJax needs updating, use
+
+```
+cd MathJax
+git pull origin
+```
+
+to update your copy of MathJax to the current release version. If you keep MathJax updated in this way, you will be sure that you have the latest bug fixes and new features as they become available.
+
+This gets you the most recently released version of MathJax. Older releases are “tagged” in Git so that you can refer to them by name (which is the version number in most cases). Use
+
+```
+cd MathJax
+git tag -l
+```
+
+to see all tagged versions, and use
+
+```
+cd MathJax
+git checkout <tag_name>
+```
+
+to checkout the indicated version of MathJax, where `<tag_name>` is the name of the tagged version you want to use. For example,
+
+```
+git checkout 2.7.0
+```
+
+would get you version 2.7.0 of MathJax, even though there are newer versions of MathJax available.
+
+Each of the main releases also has a branch in which critical updates are applied (we try hard not to patch the stable releases, but sometimes there is a crucial change that needs to be made). If you want to use the patched version of a release, then check out the branch rather than the tag. Use
+
+```
+cd MathJax
+git branch -r
+```
+
+to get a list of the available branches. There are separate branches for the main releases, but with `-latest` appended. These contain all the patches for that particular release. You can check out one of the branches just as you would a tagged copy. For example, the branch for the 2.5 release is `v2.5-latest`. To get this release, use
+
+```
+cd MathJax
+git checkout v2.5-latest
+```
+
+and to update it when changes occur, use
+
+```
+cd MathJax
+git pull origin v2.5-latest
+```
+
+One of the branches is named `develop`; this branch includes all the latest changes to MathJax. Although we try to make sure this version is a stable and usable version of MathJax, it is under active development, and at times it may be less stable than the “release” version. If you want the most recent patches before they have been formally released as a new numbered version, you can check out the `develop` branch.
