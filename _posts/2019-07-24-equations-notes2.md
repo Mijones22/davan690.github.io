@@ -16,7 +16,7 @@ http://docs.mathjax.org/en/latest/
 
 ## one Minute Guide to Embed Math
 
-1. Get the CDN link for the MathJax version/variant you desire from , e.g. `https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML`
+1. Get the CDN link for the MathJax version/variant you desire from [here](http://docs.mathjax.org/en/latest/configuration.html), e.g. `https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js`
 
    Despite the given version `2.7.5`, this always references the **latest** version! Learn more at [MathJax' getting started guide](https://www.mathjax.org/#gettingstarted).
 
