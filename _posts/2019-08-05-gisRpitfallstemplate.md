@@ -8,35 +8,12 @@ tags: ["website", "overview", "general"]
 bigimg: /img/...
 use-site-title: true
 ---
-<div class="container template-article">
-
-<header>
-
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-
-<div class="container">
-
-<div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><span class="navbar-brand">[geocompkg | metapackage for the book Gecomputation with R](../index.html) <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.75</span></span></div>
-<div id="navbar" class="navbar-collapse collapse">
 
 *   [Home](https://geocompr.github.io/)
 *   [Articles](../articles/index.html)
 
 *   [<span class="fa fa-github fa-lg"></span>](https://github.com/geocompr/geocompkg)
 
-</div>
-
-</div>
-
-</div>
-
-</header>
-
-<div class="row">
-
-<div class="col-md-9 contents">
-
-<div class="page-header toc-ignore">
 
 # Spatial data and the tidyverse: pitfalls to avoid
 
