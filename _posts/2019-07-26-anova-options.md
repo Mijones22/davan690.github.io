@@ -15,6 +15,39 @@ use-site-title: true
 published: true
 ---
 
+Anova and simple regression models were a hot topic a few years back with publications like these:
+
+| Publication | Figure overview | Web link |
+| ----------- | --------------- | -------- |
+|             |                 |          |
+|             |                 |          |
+|             |                 |          |
+|             |                 |          |
+
+
+
+### Shiny
+
+And stemmed from these papers and other work there is now a collection of shiny apps:
+
+```dcsd
+
+```
+
+And repositories containg code to help work through simple mean testing problems:
+
+```cs
+
+```
+
+### Challenges
+
+A key challenge of doing simple tests using anova or glms is estimating and incorperating modifications that account for one of the three assumptions of regression analysis ... **normality**.
+
+A simple collection of transformations exsist that can be applied to reach the assumption of normality (that can be tested). The general concept is that the data being estimated should not be significantly different to a collection of the same data (mean) as the normal distribution (q-q plot). Here is how I test this:
+
+
+
 ## Resources
 
 Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Shiny.
@@ -36,3 +69,7 @@ Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Sh
 http://www.yorku.ca/mack/RN-HowToReportAnFStatistic.html
 - http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pd 
 - https://www.nature.com/articles/srep02259?WT.ec_id=SREP-631-20130801
+
+## My notes
+
+For a current publication I am working on I have done some simple tests to compare mean differences across several independent groups. This has many options as I have found out. The full report is here:
