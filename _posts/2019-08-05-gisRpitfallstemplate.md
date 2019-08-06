@@ -9,10 +9,13 @@ bigimg: /img/...
 use-site-title: true
 ---
 
+![](https://media.giphy.com/media/OMeGDxdAsMPzW/giphy.gif)
+
+Orginal resources can be found below:
+
 *   [Home](https://geocompr.github.io/)
 *   [Articles](../articles/index.html)
-
-*   [<span class="fa fa-github fa-lg"></span>](https://github.com/geocompr/geocompkg)
+*   [Book](https://github.com/geocompr/geocompkg)
 
 
 # Spatial data and the tidyverse: pitfalls to avoid
@@ -136,7 +139,7 @@ Just loading the tidyverse reveals a pitfall of using spatial data with the tidy
     ## ✖ dplyr::lag()     masks stats::lag()
     ## ✖ dplyr::select()  masks raster::select()
 
-The first chunk of output shows that the tidyverse is attaching its packages. ✔ yes we want **ggplot2**, ✔ we want **dplyr** etc. But we also get less positive messages. ✖ Doh! there are many conflicts.
+The `first` chunk of output shows that the tidyverse is attaching its packages. ✔ yes we want **ggplot2**, ✔ we want **dplyr** etc. But we also get less positive messages. ✖ Doh! there are many conflicts.
 
 In the context of spatial data this may only be a problem if you use the **raster** package. The final ✖ shows that **dplyr**’s `[select()](https://www.rdocumentation.org/packages/raster/topics/select)` function has boshed (technically speaking, masked) **raster**’s select function. This can cause issues. To avoid this pitfall we suggest using `[dplyr::select()](https://dplyr.tidyverse.org/reference/select.html)` and `[raster::select()](https://www.rdocumentation.org/packages/raster/topics/select)` rather than just `[select()](https://www.rdocumentation.org/packages/raster/topics/select)` when using this conflicted function name if you use **raster** and the **tidyverse**.
 

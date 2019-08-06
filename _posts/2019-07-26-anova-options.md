@@ -52,23 +52,21 @@ A simple collection of transformations exsist that can be applied to reach the a
 
 Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Shiny.
 
-- http://dwoll.de/rexrepos/posts/ancova.html
-- https://stats.stackexchange.com/questions/51780/how-to-perform-an-ancova-in-r
-
-- https://rstudio-pubs-static.s3.amazonaws.com/318136_38c7ac7c0cae412fbbe32a05e405b60f.html
-- http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pdf
-- https://biol355.github.io/Labs/lab10_lm.html
-
-- http://www.ssnhub.com/stats-for-bio/two-way-ancova-in-r.html
-
-- http://www.ssnhub.com/stats-for-bio/one-way-anova-in-r.html
-
-- http://dzchilds.github.io/aps-data-analysis-L2/regression-simple.html
-- http://www.sthda.com/english/wiki/two-way-anova-test-in-r
-- https://www.r-bloggers.com/analysis-of-covariance-%E2%80%93-extending-simple-linear-regression/
-http://www.yorku.ca/mack/RN-HowToReportAnFStatistic.html
-- http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pd 
-- https://www.nature.com/articles/srep02259?WT.ec_id=SREP-631-20130801
+| Overview                                                     | Snap |
+| ------------------------------------------------------------ | :----------------------------------------------------------- |
+| The basic tool for this is `lm`; note that `aov` is a wrapper for `lm`.http://dwoll.de/rexrepos/posts/ancova.html | ![http://dwoll.de/rexrepos/posts/ancova.html](../img/1564997197610.png) |
+| https://www.r-bloggers.com/analysis-of-covariance-%E2%80%93-extending-simple-linear-regression/ |  |
+| In particular, if you have some grouping variable (factor), gg, and a continuous covariate xx, the model `y ~ x + g` would fit a main effects ANCOVA model, while `y ~ x * g` would fit a model which includes interaction with the covariate. `aov` will take the same formulas.[here](https://stats.stackexchange.com/questions/51780/how-to-perform-an-ancova-in-r) | ![1564997389543](../img/ancova-stack .png)Pay particular attention to the `Note` in the help on `aov` |
+| http://www.sthda.com/english/wiki/two-way-anova-test-in-r |  |
+| https://rstudio-pubs-static.s3.amazonaws.com/318136_38c7ac7c0cae412fbbe32a05e405b60f.html |                  |
+| http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pdf |                                                              |
+| https://biol355.github.io/Labs/lab10_lm.html |                                                              |
+| http://www.ssnhub.com/stats-for-bio/two-way-ancova-in-r.html |                                                              |
+| http://www.ssnhub.com/stats-for-bio/one-way-anova-in-r.html |                                                              |
+| http://dzchilds.github.io/aps-data-analysis-L2/regression-simple.html |                                                              |
+| http://www.unh.edu/halelab/BIOL933/Readings/Topic13_Reading.pd | |
+| https://www.nature.com/articles/srep02259?WT.ec_id=SREP-631-20130801 | |
+| http://www.yorku.ca/mack/RN-HowToReportAnFStatistic.html | |
 
 ## My notes
 
