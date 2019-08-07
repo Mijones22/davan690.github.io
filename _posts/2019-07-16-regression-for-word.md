@@ -27,11 +27,6 @@ help(veteran, package="survival")
 head(veteran)
 ```
 
-```ruby
-{% for post in site.tags["shiny"] %} [{{ post.title }}](https://github.com/davan690/beech-forest-dynamics/blob/master/{{ post.url }}) ({{ post.date | date_to_string }})
-{{ post.description }} {% endfor %}
-```
-
 ```{r}# Fit the COX model
 fit = coxph(Surv(time, status) ~ age + celltype + prior + karno + diagtime + trt, data=veteran)
 ```
