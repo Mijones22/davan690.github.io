@@ -8,10 +8,6 @@ bigimg: /img/tools.jpg
 permlink: fun-and-games2.html
 ---
 
-## SNAP one
-
-### Math on the web
-
 `MathJax` is a javascript library that uses the TeX algorithms and fonts to display math formulas on HTML pages. It allows for very fine-grained configuration, is widely used and works on all modern browsers.
 
 #### Implement MathJax with Jekyll
@@ -106,7 +102,22 @@ If you don’t even want the inline math statement, escape the first two dollar 
 
 MathJax can be easily integrated into your website with a one-line addition. You can see [this discussion](https://github.com/daattali/beautiful-jekyll/issues/195) for more information
 
-### My notes
+## Resources
+
+- MathJax: [Home](https://www.mathjax.org/) / [Using the MathJax Content Delivery Network (CDN)](http://docs.mathjax.org/en/latest/start.html#using-the-mathjax-content-delivery-network-cdn) / [Using MathJax in a Theme File](http://docs.mathjax.org/en/latest/misc/platforms.html?highlight=jekyll#using-mathjax-in-a-theme-file)
+- Jekyll: [Math Support - Jekyll Doc](https://jekyllrb.com/docs/extras/#math-support)
+- Kramdown: [Math Blocks](http://kramdown.gettalong.org/syntax.html#math-blocks) / [Math Support](http://kramdown.gettalong.org/converter/html.html#math-support) / [Math Engine MathJax](http://kramdown.gettalong.org/math_engine/mathjax.html)
+- [Displaying Math in RSS feeds - Noam Ross](http://www.noamross.net/blog/2012/4/4/math-in-rss-feeds.html)
+- [Using Jekyll and Mathjax - Dason Kurkiewicz](http://dasonk.github.io/blog/2012/10/09/Using-Jekyll-and-Mathjax.html)
+- [MathJax with Jekyll - Gaston Sanchez](http://gastonsanchez.com/opinion/2014/02/16/Mathjax-with-jekyll/)
+- [How to use MathJax in Jekyll generated Github pages - Haixing Hu](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
+- [在github pages上使用MathJax - Kung Hiu](http://www.anaharb.com/2014/0215/Jekyll-MathJax/)
+- [MathJax with Kramdown - Toban Wiebe](http://tobanwiebe.com/blog/2016/02/mathjax-kramdown)
+
+
+
+
+## My notes
 
 #### one Minute Guide to Embed Math
 
@@ -131,48 +142,3 @@ defaults:
 ```
 
 3. Use `$$ ... $$` for display math in your posts! Inline math is hard to get working with `\( ... \)` working. Possibly, \ is stripped in Markdown (?). In any case, `$ ... $` does **not** work by default as it's disabled by MathJax; again, learn more at [MathJax' docs on putting mathematics on a web page](https://docs.mathjax.org/en/latest/start.html#putting-mathematics-in-a-web-page).
-
-#### Resources
-
-- MathJax: [Home](https://www.mathjax.org/) / [Using the MathJax Content Delivery Network (CDN)](http://docs.mathjax.org/en/latest/start.html#using-the-mathjax-content-delivery-network-cdn) / [Using MathJax in a Theme File](http://docs.mathjax.org/en/latest/misc/platforms.html?highlight=jekyll#using-mathjax-in-a-theme-file)
-- Jekyll: [Math Support - Jekyll Doc](https://jekyllrb.com/docs/extras/#math-support)
-- Kramdown: [Math Blocks](http://kramdown.gettalong.org/syntax.html#math-blocks) / [Math Support](http://kramdown.gettalong.org/converter/html.html#math-support) / [Math Engine MathJax](http://kramdown.gettalong.org/math_engine/mathjax.html)
-- [Displaying Math in RSS feeds - Noam Ross](http://www.noamross.net/blog/2012/4/4/math-in-rss-feeds.html)
-- [Using Jekyll and Mathjax - Dason Kurkiewicz](http://dasonk.github.io/blog/2012/10/09/Using-Jekyll-and-Mathjax.html)
-- [MathJax with Jekyll - Gaston Sanchez](http://gastonsanchez.com/opinion/2014/02/16/Mathjax-with-jekyll/)
-- [How to use MathJax in Jekyll generated Github pages - Haixing Hu](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
-- [在github pages上使用MathJax - Kung Hiu](http://www.anaharb.com/2014/0215/Jekyll-MathJax/)
-- [MathJax with Kramdown - Toban Wiebe](http://tobanwiebe.com/blog/2016/02/mathjax-kramdown)
-
-
-
-## SNAP two
-
-https://desygner.com/editor/?id=fYrvGLZsucN
-
-## SNAP three
-
-
-
-
-
-## SNAP four
-
-
-
-## SNAP five
-
-etc etc ...
-
-
-
-## Tutorials
-
-There could be a bit to come here....
-
-
-
-
-## My notes
-
-And here later...
