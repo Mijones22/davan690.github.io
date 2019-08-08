@@ -49,3 +49,27 @@ The DS community is great and even have there own slack channel. I still haven't
 - Health (coming)
 - Hierarchical modelling (coming)
 - Bayesian modelling (coming)
+
+## R-Coding Resources
+
+- [Analysising patient data](https://swcarpentry.github.io/r-novice-inflammation/aio.html): A basic intro to R using a simulated patient dataset.
+
+- [r-shiny pages](https://github.com/davan690/awesome-rshiny): A repositiory of resources I am working on.
+
+- [A cool GIST](https://gist.github.com/StevenMMortimer): finds the most popular `R` packages currently
+
+- [A pirate guide](https://bookdown.org/ndphillips/YaRrr/YaRrr.pdf)
+
+- [RMArkdown guide](http://252s-epi.vet.unimelb.edu.au/~epi/epi_html/Courses/ID_FAO_EID_risk_mapping/docs/02-Intro_R/Xie_et_al_R_Markdown_Definitive_Guide.pdf)
+
+- [bookdown guide]()
+
+- [GIS bookdown course](http://geog.uoregon.edu/bartlein/courses/geog490/week05.html); [images here](https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/)
+
+-[shiny combos](https://beta.rstudioconnect.com/content/2671/Combining-Shiny-R-Markdown.html)
+
+- [RMD pimping](https://holtzy.github.io/Pimp-my-rmd/)
+
+- [knitr and markdown](https://kbroman.org/knitr_knutshell/pages/Rmarkdown.html)
+
+- html-markdown converter [here](https://www.browserling.com/tools/html-to-markdown)

@@ -2,9 +2,9 @@
 layout: post
 title: "A Markdown example"
 subtitle: A quick reference to the Markdown syntax.
-tags: ["test", "tools","rmd", "rstudio","home"]
+tags: ["test", "tools","rmd", "rstudio","home", "md"]
 image: /img/aboutme-image.jpg
-bigimg: /img/construction.jpg
+bigimg: /img/background-image.jpg
 permlink: /markdown-example-post.html
 ---
 

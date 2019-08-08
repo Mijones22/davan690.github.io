@@ -9,21 +9,6 @@ bigimg: /img/...
 use-site-title: true
 ---
 
----
-layout: post
-title: "Tidy spatial data in R: using dplyr, tidyr, and ggplot2 with sf"
-published: true
-excerpt: >
-  The new R package sf, which replaces sp for handling spatial objects, is 
-  designed to play nicely with the Tidyverse. In this post I show how sf 
-  objects are stored as data frames and how this allows them to work with with 
-  ggplot2, dplyr, and tidyr.
-category: r
-tags: r spatial gis
-editor_options: 
-  chunk_output_type: console
----
-
 Traditionally the package `sp` has been the standard for storing spatial data in R. This package (along with others such as `raster`) help make R a powerful GIS. However, `sp`'s days may be numbered. I've recently been playing around with the new [R package `sf`](https://github.com/edzer/sfr) which is meant to supersede `sp`. This package provides native support for [Simple Features](https://en.wikipedia.org/wiki/Simple_Features) in R, can perform topological operations by interfacing with [GEOS](https://trac.osgeo.org/geos), and can read and write to a wide variety of spatial file formats courtesy of [GDAL](http://www.gdal.org/).
 
 Thus far I've been really impressed with the functionality provided by `sf`; it appears to do everything `sp`, `rgdal`, and `rgeos` did, but in a more modern and intuitive fashion. However, perhaps my favourite thing about `sf` is that the authors have clearly been informed by the design principles of Hadley Wickham's [Tidyverse](http://tidyverse.org/). In particular, I've noticed the following features:

@@ -28,15 +28,20 @@ navbar-links:
   Resources:
     - General Statistics: "general-statistics"
     - Ecological Statistics: "ecological-statistics"
-    - Invasive species research: "invasive-species-research"
-    - AwesomeR: "awesome-r"
-    - AwesomeShiny: "awesome-rshiny"
+    - Health statistics: "https://bookdown.org/taragonmd/phds/"
+
   News:
-    - Blogs: "all-posts"
-    - Tags: "tags"
+    - Invasive species research: "invasive-species-research"
+    - Ecological text: "stats-for-bio"
+    - R companion: "https://bookdown.org/ageraci/STAT160Companion/"
+    - AwesomeShiny: "awesome-rshiny"
+    - Shiny example: "shiny-salesman"
+    - A full list of blogs: "all-posts"
+    - Tag index: "tags"
     - 1st Manuscript: "beech-forest-dynamics"
+
   Info:
-    - Background: "background" 
+    - Background: "background"
     - Donate: "donate"
     - Collaborating: "contributing"
     - Contact: "contact"
@@ -135,7 +140,7 @@ gtag: "UA-103591108-2"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "ssnhub"
 # If you want to use just-comments fill with the API Key
 # just-comments: "ABCD-EFGH-IJKL"
 
@@ -188,13 +193,15 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: true
-
+      
 # Use tags index page and make tags on each post clickable
 link-tags: true
 

@@ -2,13 +2,16 @@
 layout: post
 title: "Regressions for word docx"
 subtitle: "Tables and figures"
+image: /img/tools.jpg
+permlink: /regression-rendered-docx.html
+tags: ["website", "overview", "general", "R", "tools", "docx"]
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
 Here are some blogs on where this situation is:
 
 - [A blog description of one option](https://datascienceplus.com/how-to-export-regression-results-from-r-to-ms-word/)
-- 
 
 ### Cheatsheet  steps
 
@@ -22,11 +25,6 @@ data(veteran)
 help(veteran, package="survival")
 # Show first 6 rows
 head(veteran)
-```
-
-```ruby
-{% for post in site.tags["shiny"] %} [{{ post.title }}](https://github.com/davan690/beech-forest-dynamics/blob/master/{{ post.url }}) ({{ post.date | date_to_string }})
-{{ post.description }} {% endfor %}
 ```
 
 ```{r}# Fit the COX model
