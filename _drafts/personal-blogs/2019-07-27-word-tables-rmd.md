@@ -11,3 +11,11 @@ use-site-title: true
 
 ![1565176985620](../../img/word-table-issues.jpg)
 
+
+
+## Resources
+
+
+
+## My notes
+
