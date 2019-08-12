@@ -11,9 +11,9 @@ use-site-title: true
 
 Referencing in R analysis can be tricky. There are a few different options and styles that can be used even before all the standard issues with styles and journals come about. One good option in `RStudio` is to use the `citr` package and the add-on associated.
 
-![1565090897567](../../img/citr-r-addins.png)
+![1565090897567](../img/citr-r-addins.png)
 
-![1565091802854](../../img/extra-citr-bib-files.png)
+![1565091802854](../img/extra-citr-bib-files.png)
 
 ## Resources
 
