@@ -3,9 +3,9 @@ title: "Sorting out packages in R"
 layout: post
 subtitle: "Another package to make package depenancies known"
 image: /img/renv-tools-snip.png
-permlink: /first-post.html
+permlink: /sorting-package-uses.html
 tags: ["website", "overview", "general"]
-bigimg: /img/...
+bigimg: /img/tools.jpg
 use-site-title: true
 ---
 
