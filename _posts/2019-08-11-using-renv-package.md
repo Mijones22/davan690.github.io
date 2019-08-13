@@ -1,7 +1,7 @@
 ---
 title: "Sorting out packages in R"
 layout: post
-subtitle: "Another package to make package depenancies known"
+subtitle: "Another package to make package dependencies known"
 image: /img/renv-tools-snip.png
 permlink: /sorting-package-uses.html
 tags: ["website", "overview", "general"]
@@ -13,7 +13,7 @@ Here is an easy overview of the `renv` version package from [here](https://rstud
 
 ![1565514375976](../img/renv-tools-snip.png)
 
-This package is a quick solution to understand what packages a user needs to compile and analysis the r script you send them. This is a way of keeping that information in the file when you send the document. 
+This package is a quick solution to understand what packages a user needs to compile and analysis the r script you send them. This is a way of keeping that information in the file when you send the document.
 
 ## Resources
 
@@ -23,9 +23,9 @@ Creating reproducible working enviorments is something I am slowing working towa
 
 ## My notes
 
-You need one file to keep track of version and package changes as follows:
+If you want one file to keep track of version and package changes the `renv` package from github can do it easily.
 
-Download the package:
+1. Download the package:
 
 ```R
 if (!requireNamespace("remotes"))
@@ -34,5 +34,10 @@ if (!requireNamespace("remotes"))
 remotes::install_github("rstudio/renv")
 ```
 
-1. Create a new file called  `renv.lock` by using the function `renv::init()`
-2. Then restore the package information when needed with `renv::restore()`
+2. Create a new file called  `renv.lock`
+
+- using the function `renv::init()`
+
+3. Then restore the package information when needed
+
+- with `renv::restore()`

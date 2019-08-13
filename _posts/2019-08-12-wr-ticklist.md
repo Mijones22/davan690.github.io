@@ -12,13 +12,11 @@ This is the submission tick list from the [Journal of Wildlife Research](http://
 
 ## Checklist
 
-Type the manuscript **double- or 1.5-line-spaced** throughout, including references, **figure captions, and tables, which should be placed at the end of the document**. 
+Type the manuscript **double- or 1.5-line-spaced** throughout, including references, **figure captions, and tables, which should be placed at the end of the document**.
 
-Clearly numbered figures should also be **imported at the end of the document at submission stage**. 
+Clearly numbered figures should also be **imported at the end of the document at submission stage**.
 
 **Line numbers must be added (continuous throughout the document), and all pages must be numbered.**
-
-
 
 | Task                                                         | Notes |
 | ------------------------------------------------------------ | ----- |
@@ -26,8 +24,8 @@ Clearly numbered figures should also be **imported at the end of the document at
 | Type the title and all headings aligned left, with only the first letter of the first word and of any proper name capitalised. |       |
 | Main headings (Introduction, Materials and methods, Results, Discussion, Acknowledgments, Conflicts of Interest, References) are set in bold roman (not italic) type. Minor headings are set in light italic type. |       |
 | Do not indent paragraphs or use a carriage-return (Enter) at the end of lines within a paragraph. |       |
-| Do not use initial capitals for vernacular names of species except where the name is based on a proper name (e.g. regent honeyeater, but Port Lincoln parrot; sugar glider, but Leadbeater´s possum). |       |
-| Use ´s´ not ´z´ in words such as ´recognise´, ´analyse´ and ´organisation´. |       |
+| Do not use initial capitals for vernacular names of species except where the name is based on a proper name.  | e.g. regent honeyeater, but Port Lincoln parrot; sugar glider, but Leadbeater´s possum. |
+| Use ´s´ not ´z´.  | in words such as ´recognise´, ´analyse´ and ´organisation´. |
 | Use the conventions ´from … to´, ´between … and´, ´range x-y´. |       |
 | Use single quotation marks.                                  |       |
 | Check that all references mentioned in the text are in the References, and *vice versa*. |       |
