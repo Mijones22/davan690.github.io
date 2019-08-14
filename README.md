@@ -1,8 +1,4 @@
-This is my personal website for my phd work with the statistics network and other academic research included. The website is build on the following:
-
-## Credits
-
-This template was not made entirely from scratch.
+This is my personal website for my phd work with the statistics network and other academic research included. This website is build on the **Beautiful Jekyll** template below.
 
 # Beautiful Jekyll
 
