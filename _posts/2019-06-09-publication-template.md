@@ -5,7 +5,7 @@ type: post
 image: /img/writing-sationary.jpg
 bigimg: /img//writing-sationary.jpg
 tags: ["markdown", "website", "tools", "rmd"]
-permalink: /typora-blogging.html
+permalink: /journal-of-applied-ecology-template.html
 ---
 
 I think I will end up publishing a bit of stuff in this group of journals so I have collected the resources as I go to make a simple template for this and other generic scientific publications.
