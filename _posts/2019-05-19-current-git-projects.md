@@ -9,6 +9,8 @@ tags: ["phd", "general", "overview", "website"]
 
 How kol are these avatar images for a github repo! IE each project gets one of these kol stats deals and a `github book` in the future.
 
+![1565932220323](C:\Code\davan690.github.io\img\1565932220323.png)
+
 <div class="spacer"></div>
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
