@@ -23,7 +23,7 @@ Copy and paste example below and go from there currently using the `survival` pa
 
 1. Libraries needed
 
-```{r}## Load survival packagelibrary(survival)```
+```{r}## Load survival package; library(survival)```
 
 ### Load veteran data
 
