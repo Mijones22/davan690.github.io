@@ -1,6 +1,4 @@
- 2019-08-15-wordpress-to-rmarkdown
-
-```{YAML}
+---
 title: "Building bookdown outputs"
 subtitle: "What is it all about?"
 layout: post
@@ -9,7 +7,7 @@ image: /img/tools.jpg
 bigimg: /img/tools.jpg
 tags: ["website", "overview", "general"]
 use-site-title: true
-```
+---
 
 There are two blogs about this. One here going from `wordpress` to `jekyll` static site. The other one is goes the other way (for all the wordpress users out there). 
 

@@ -1,11 +1,9 @@
-2019-08-15-adding-line-numbers
-
 ```
 layout: post
-title: "Creating a template for compiling word docs"
-subtitle: "From what is needed for WR journal"
+title: "Dealing with different languages in compiling word docs"
+subtitle: "It's not enjoyable for even the best coders"
 image: /img/tools.jpg
-permlink: /wr-template-doc.html
+permlink: /languages-in-rmd.html
 tags: ["website", "overview", "general"]
 bigimg: /img/tools.jpg
 use-site-title: true

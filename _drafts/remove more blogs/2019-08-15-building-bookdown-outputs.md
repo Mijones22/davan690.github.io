@@ -1,6 +1,4 @@
-2019-08-15-building-bookdown-outputs
-
-```{YAML}
+---
 title: "Building bookdown outputs"
 subtitle: "What is it all about?"
 layout: post
@@ -9,7 +7,7 @@ bigimg: /img/tools.jpg
 tags: ["website", "overview", "general"]
 use-site-title: true
 permalink: bookdown-compile-outputs.html
-```
+---
 
 Here is my cheatsheet to reproduce manuscripts and articles from a `bookdown` project.
 

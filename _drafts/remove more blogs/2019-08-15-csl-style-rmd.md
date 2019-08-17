@@ -1,5 +1,3 @@
-2019-08-15-csl-style-rmd
-
 ```
 layout: post
 title: "Using csl styles in rmd files"

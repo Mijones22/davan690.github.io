@@ -1,5 +1,3 @@
-2019-08-15-updating-r-in-rstudio
-
 ```
 layout: post
 title: "Updating R for RStudio"
@@ -11,4 +9,6 @@ bigimg: /img/tools.jpg
 use-site-title: true
 ```
 
+I dont know how to do this smoothly yet!!
 
+Any ideas add them to the comments below:

@@ -1,6 +1,4 @@
- 2019-08-15-rmarkdown-to-wordpress
-
-```{YAML}
+---
 title: "RMarkdown to wordpress"
 subtitle: "What is it all about?"
 layout: post
@@ -9,7 +7,7 @@ bigimg: /img/tools.jpg
 tags: ["website", "overview", "general"]
 use-site-title: true
 permalink: wordpress-compile-rmd.html
-```
+---
 
 I investigated these resources last year when I was trying to work with `wordpress` and `RStudio` to write blogs. I thought this might be helpful for future reference.
 

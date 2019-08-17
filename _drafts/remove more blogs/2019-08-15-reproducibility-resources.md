@@ -1,6 +1,4 @@
-2019-08-15-reproducibility-resources
-
-```{YAML}
+---
 title: "Reproduble resources"
 subtitle: "What is it all about?"
 layout: post
@@ -9,7 +7,7 @@ image: /img/tools.jpg
 bigimg: /img/tools.jpg
 tags: ["website", "overview", "general"]
 use-site-title: true
-```
+---
 
 Here are some great references for learning more about reproducibility on your own.
 

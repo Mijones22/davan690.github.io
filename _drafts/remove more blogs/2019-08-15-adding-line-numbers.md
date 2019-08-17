@@ -1,11 +1,9 @@
-2019-08-15-just -another-word-rmd-resource
-
 ```
 layout: post
-title: "Dealing with different languages in compiling word docs"
-subtitle: "It's not enjoyable for even the best coders"
+title: "Creating a template for compiling word docs"
+subtitle: "From what is needed for WR journal"
 image: /img/tools.jpg
-permlink: /languages-in-rmd.html
+permlink: /wr-template-doc.html
 tags: ["website", "overview", "general"]
 bigimg: /img/tools.jpg
 use-site-title: true

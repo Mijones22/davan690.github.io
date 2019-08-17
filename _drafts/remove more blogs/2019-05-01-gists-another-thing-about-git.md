@@ -1,5 +1,3 @@
-2019-05-01-gists-another-thing-about-git
-
 ---
 title: GIST's and research
 subtitle: An easy way to share small code snips

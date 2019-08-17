@@ -1,6 +1,4 @@
-2019-08-15-rake-ruby-software
-
-```{YAML}
+---
 title: "Rake Software"
 subtitle: "What is it all about?"
 layout: post
@@ -9,7 +7,7 @@ bigimg: /img/tools.jpg
 tags: ["website", "overview", "general"]
 use-site-title: true
 permalink: rake-ruby.html
-```
+---
 
 [Rake](https://en.wikipedia.org/wiki/Rake_(software)) is a software task management and build automation tool. It allows the user to specify tasks and describe dependencies as well as to group tasks in a namespace.
 

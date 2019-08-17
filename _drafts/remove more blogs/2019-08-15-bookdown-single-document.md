@@ -1,6 +1,14 @@
-2019-08-15-bookdown-single-document
+---
+title: "Submission tick list"
+subtitle: "Journal of Wildlife Research list"
+type: post
+image: /img/wr-webpage.png
+bigimg: /img/first-image1.png
+tags: ["markdown", "website", "tools", "rmd"]
+permalink: /journal-wr-rmd.html
+---
 
-`bookdown` is an amazing conglomerate of packages using `r`. This is a collection of my resources and notes on building a `bookdown` project into a manuscript. 
+`bookdown` is an amazing conglomerate of packages using `r`. This is a collection of my resources and notes on building a `bookdown` project into a manuscript.
 
 ## Resources
 
@@ -28,7 +36,6 @@ After this renders it is possible to modify the content that is rendered in the 
 #  ui:
 #    chapter_name: "Chapter "
 #delete_merged_file: true
-
 ```
 
 The chapters that are or are not included in the single document can be defined as so:

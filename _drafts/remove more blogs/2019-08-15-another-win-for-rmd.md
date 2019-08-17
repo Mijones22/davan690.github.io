@@ -1,5 +1,3 @@
-2019-08-15-another-win-for-rmd
-
 ```
 layout: post
 title: "Another win for the rmd world"
