@@ -9,5 +9,5 @@ bigimg: /img/tools.jpg
 use-site-title: true
 ```
 
-Yui is my hero. Grreat talk from the 2018 RConference and can be found [here](https://vimeo.com/94181521).
+
 
