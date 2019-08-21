@@ -5,7 +5,7 @@ layout: post
 image: /img/hello_world.jpeg
 bigimg: /img/first-image1.png
 tags: ["html", "website", "tools"]
-permalink: /typora-blogging.html
+permalink: /html-prgramming.html
 ---
 
 [How to specify button size in html](https://www.youtube.com/watch?v=r3WpZ1Q0_L0)

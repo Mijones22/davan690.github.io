@@ -26,19 +26,18 @@ description: Statistical support for researchers
 navbar-links:
   Home: ""
   Resources:
-    - General Statistics: "general-statistics"
-    - Ecological Statistics: "ecological-statistics"
+    - General statistics: "general-statistics"
+    - Ecological statistics: "ecological-statistics"
     - Health statistics: "https://bookdown.org/taragonmd/phds/"
-
-  News:
-    - Invasive species research: "invasive-species-research"
     - Ecological text: "stats-for-bio"
     - R companion: "https://bookdown.org/ageraci/STAT160Companion/"
     - AwesomeShiny: "awesome-rshiny"
     - Shiny example: "shiny-salesman"
-    - A full list of blogs: "all-posts"
-    - Tag index: "tags"
-    - 1st Manuscript: "beech-forest-dynamics"
+    - Website content: "tags"
+
+  News:
+    - Invasive species research: "invasive-species-research"
+    - 1st Manuscript: "beech-forest-publication"
 
   Info:
     - Background: "background"
@@ -178,7 +177,7 @@ timezone: "Australia/Sydney"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 20
 
 kramdown:
   input: GFM

@@ -6,6 +6,7 @@ tags: ["general", "overview", "website", "tools", "resources", "1"]
 image: /img/thumbnail1.png
 bigimg: /img/aboutme-image.jpg
 permlink: /feedback.html
+featured: true
 ---
 
 <div style="padding:5px; text-align:center; background-color:lightblue;">

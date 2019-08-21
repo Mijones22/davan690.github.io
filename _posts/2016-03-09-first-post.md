@@ -6,6 +6,7 @@ tags: ["general", "overview", "website", "1"]
 image: /img/Centre-logo.jpg
 bigimg: /img/aboutme-image.jpg
 permlink: /first-post.html
+featured: true
 ---
 
 <div style="padding:5px; text-align:center; background-color:lightblue;">

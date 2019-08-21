@@ -1,11 +1,11 @@
 ---
-title: Journal of Applied Ecology
-subtitle: A simple publication template
+title: "Journal of Applied Ecology"
+subtitle: "A simple publication template"
 type: post
 image: /img/tools.jpg
 bigimg: /img/first-image1.png
 tags: ["markdown", "website", "tools", "rmd"]
-permalink: /typora-blogging.html
+permalink: /applied-ecology-rmd.html
 ---
 
 This is a simple blog with the RMarkdown code explained for a Journal of Applied Ecology manuscript. I would love any comments on how to make this better from anyone who has more experience.
@@ -13,19 +13,17 @@ This is a simple blog with the RMarkdown code explained for a Journal of Applied
 ```{r var-yaml-code, eval=FALSE, include=FALSE}
 #     theme: cerulean
 #     csl: mee.csl
-
 # bibliography: references.bib
-  # html_document:
-  #   fig_caption: yes
-  #   highlight: pygments
-  #   number_sections: no
-  #   theme: cerulean
-  # pdf_document:
-  #   fig_caption: yes
-  #   keep_tex: yes
-  #   number_sections: yes
-  # word_document: default
-  
+# html_document:
+#   fig_caption: yes
+#   highlight: pygments
+#   number_sections: no
+#   theme: cerulean
+# pdf_document:
+#   fig_caption: yes
+#   keep_tex: yes
+#   number_sections: yes
+# word_document: default
 ```
 
 ```{r enviroment, include=FALSE}
