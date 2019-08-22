@@ -1,17 +1,21 @@
 ---
-title: "Sorting out packages in R"
 layout: post
-subtitle: "Another package to make package dependencies known"
+title: Sorting out packages in R
+subtitle: Another package to make package dependencies known
 image: /img/renv-tools-snip.png
 permlink: /sorting-package-uses.html
-tags: ["website", "overview", "general"]
+tags:
+  - website
+  - overview
+  - general
 bigimg: /img/tools.jpg
 use-site-title: true
+published: true
 ---
 
 Here is an easy overview of the `renv` version package from [here](https://rstudio.github.io/renv/index.html)
 
-![1565514375976](../img/renv-tools-snip.png)
+![1565514375976](./img/renv-tools-snip.png)
 
 This package is a quick solution to understand what packages a user needs to compile and analysis the r script you send them. This is a way of keeping that information in the file when you send the document.
 
