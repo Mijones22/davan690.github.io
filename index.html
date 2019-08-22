@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Statistics
+featured: /img/tools.jpg
 subtitle: A website for statistics in Ecology and Graduate Research
-use-site-title: true
+use-site-title: false
 ---
 
 <div class="main-explain-area jumbotron">
@@ -12,18 +13,41 @@ use-site-title: true
 
 
 <h2>Here are a few quick resources</h2>
-<div class="main-explain-area jumbotron">
-<a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" align="center">Statistics text</a>
-<a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ageraci/STAT160Companion/" align="center">RStudio and R coding text</a>
+<div class="main-explain-area jumbotron" align="center">
+  These resources are ment to support our coding sessions. To begin with the resources below are focused at researchers with very little coding knowledge.
+
+  <p>
+      <a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ndphillips/YaRrr/">A pirate's guide to Rrrrr</a> A different way of looking at R.
+    </p>
+
+    
+    <p><a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" >Bio-statistics text</a> I have began developing this statistical ecology text from <a href = "https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/childs"> A bio-statistics course</a> taught at the <a href = "https://www.sheffield.ac.uk/")>University of Sheffield</a></p>
+    
+    <p><a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ageraci/STAT160Companion/" >R coding</a><a> A companion text (helps as you are learning about coding)</a></p>
+    
+    <p><a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" align="center">Ecology statistics text</a></p>
+      
+    <p>
+      <a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/awesome-R/" >awesome-R</a> A curated collection of trending r tools and packages
+    </p>
+
+<p>
+  <a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ndphillips/YaRrr/">A pirate's guide to Rrrrr</a> A different way of looking at R.
+</p>
+<p>
+  <a class="btn btn-success btn-lg get-started-btn" href="https://gist.github.com/davan690" align="center">Code snippits set up as `gists`</a>A starting point for easily sharing code snippits from coding sessions and other research projects.
+</p>
+
 </div>
 
+<h2>Next up</h2>
 <div class="main-explain-area jumbotron">
-Next week we will being looking at lizards and the presence and absence of tick
-<a class="btn btn-success btn-lg get-started-btn" href="https://github.com/davan690/week1-coding-kris#README" align="center">Lizard statistics</a>
+   <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/davan690/week1-coding-kris#README" align="center" col = "red">Lizard statistics</a><p algin = "centre">At the beginning of September we will begin looking at a small dataset on lizards and the presence/absence of ticks</p>
+
 </div>
 
 <h2>News and info</h2>
-
+<div class="main-explain-area jumbotron">
 <div class="posts-list">
     {% for post in paginator.posts %}
     <article class="post-preview">
@@ -89,3 +113,4 @@ Next week we will being looking at lizards and the presence and absence of tick
     {% endif %}
   </ul>
   {% endif %}
+</div>
