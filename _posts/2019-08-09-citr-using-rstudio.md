@@ -41,3 +41,7 @@ Referencing in R analysis can be tricky. There are a few different options and s
 
 ## My notes
 
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was doing:<br><br>library(sf) <br>library(rnaturalearth)<br>library(rnaturalearthdata)<br><br>nz &lt;- ne_countries(country = &#39;new zealand&#39;, scale = &#39;large&#39;, returnclass = &#39;sf&#39;)<br><br>nz %&gt;% ggplot() + geom_sf()<br><br>and, rather unexpectedly, got <a href="https://t.co/9zYrP8PQjF">pic.twitter.com/9zYrP8PQjF</a></p>&mdash; Luis Apiolaza ⏚ (@zentree) <a href="https://twitter.com/zentree/status/1165772930720026625?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
