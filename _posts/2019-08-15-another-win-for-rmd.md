@@ -1,4 +1,4 @@
-```
+---
 layout: post
 title: "Using the output_yaml"
 subtitle: "Working with bookdown to compile outputs"
@@ -7,11 +7,11 @@ permlink: /ms-template-doc.html
 tags: ["website", "overview", "general"]
 bigimg: /img/tools.jpg
 use-site-title: true
-```
+---
 
 Here is a manuscript template for `rmd` compiling using the following `yaml` header in the `-output.yaml` file of a bookdown project.
 
-```
+```yaml
 bookdown::gitbook:
   css: style.css
   config:
@@ -36,5 +36,4 @@ bookdown::word_document2:
 ## Resources
 
 An amazing blog on the matters and easy downloadable templates like here. Cheers to the [stirling coding club](https://stirlingcodingclub.github.io/Manuscripts_in_Rmarkdown/Rmarkdown_notes.html)
-<br>
-And the amazing developer of `rmd` ofcourse with the book [here](https://bookdown.org/yihui/rmarkdown/)
+- And the amazing developer of `rmd` ofcourse with the book [here](https://bookdown.org/yihui/rmarkdown/)

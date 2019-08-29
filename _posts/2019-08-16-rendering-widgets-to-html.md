@@ -12,6 +12,7 @@ use-site-title: true
 Html-widgets for R explained
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dV4gtARPvu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## My notes
 
 [From here](https://stackoverflow.com/questions/56157839/rendering-html-outputs-from-r-markdown-in-shiny-app): Rendering HTML documents in a `ShinyApp`

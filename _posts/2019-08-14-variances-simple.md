@@ -15,9 +15,7 @@ use-site-title: true
 published: true
 ---
 
-## Resources
-
-Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Shiny. This is a 
+Just a bunch of interesting links for ANOVA's using R, RStudio, RMarkdown and Shiny.
 
 ### ANOVA
 

@@ -1,0 +1,32 @@
+Date,Date of observation
+Pass,"Generally, 2 passes were done for each date"
+Tag,Tag ID number or fish ID number
+Lon,Longitudinal position within study reach
+,Ranges from roughly -30 ? ~250
+,Indicates metres upstream from a designated starting point
+,This is the position of the fish at the time of the observation
+Lat,Latitudinal position within the stream
+,Centimetres from the left bank (while looking upstream)
+,Not generally recorded for times when tag is recorded
+,"Points collected at 20cm spacings from the left hand bank, so min(lat) = 20 and max(lat) I think goes up to about 200 or more, not above (I don’t think)"
+Depth,Water depth (cm)
+Flow,Water velocity (m/s)
+,Substrate proportions – how much of each substrate was present within a 10cm radius around each point.
+,Sum(BR:Silt) should equal 100 (100%)
+,"Substrate particle sizes refelective of the “Wentworth Scale” (see geology textbooks) Boulder is the largest, Silt is the smallest, bedrock is just bedrock"
+,
+,Bedrock
+,Boulder
+BR,Cobble
+B,Pebble
+C,Gravel
+P,Sand
+G,Silt
+S,
+Silt,
+,"Other habitat features present or absent at each point (1 = present, 0 = absent)"
+Rip,Overhanging ‘riparian’ vegetation
+Aqu,Aquatic veg / in-stream macrophytes
+Und,Undercut banks
+leaf,Leaf litter/debris in-stream
+Comment,"Random comments – was the fish found dead, other stuff"
