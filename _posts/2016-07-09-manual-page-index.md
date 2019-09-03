@@ -19,5 +19,5 @@ There are many many great resources on the web. I have not tried to reproduce go
 
 4. [PhD drafts](/thesis-overview.md)
 
-5. [Mapping in R](/creating-maps.md)
+5. [Mapping in R](/creating-maps-in-r/)
 
