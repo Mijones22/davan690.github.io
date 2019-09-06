@@ -2,11 +2,16 @@
 layout: post
 title: The beginning
 subtitle: Starting a website
-tags: ["general", "overview", "website", "1"]
+tags:
+  - general
+  - overview
+  - website
+  - '1'
 image: /img/Centre-logo.jpg
 bigimg: /img/aboutme-image.jpg
 permlink: /first-post.html
 featured: true
+published: true
 ---
 
 <div style="padding:5px; text-align:center; background-color:lightblue;">
