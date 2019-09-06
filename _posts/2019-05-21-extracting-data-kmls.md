@@ -3,7 +3,7 @@ layout: post
 title: "KMZ files are just..."
 subtitle: "...zipped KML files"
 image: /img/tools.jpg
-permlink: /first-post.html
+permlink: /kmz-files-kml.html
 tags: ["website", "overview", "general", "kmz"]
 bigimg: /img/filing.jpg
 use-site-title: true
