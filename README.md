@@ -1,4 +1,6 @@
-This is my personal website for my phd work with the statistics network and other academic research included. This website is build on the **Beautiful Jekyll** template below.
+This is my personal website for my phd work with the statistics network (SSN) and other academic research. 
+
+This website is build on the **Beautiful Jekyll** template below but includes additional tools and software such as R, RStudio, VS-code and all the packages associated.
 
 # Beautiful Jekyll
 
@@ -25,4 +27,4 @@ If you do fork or clone this project to use as a template for your site, I would
 
 ## Known limitations
 
-- If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
