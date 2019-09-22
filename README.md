@@ -1,4 +1,4 @@
-This is my personal website for my phd work with the statistics network and other academic research included. This website is build on the **Beautiful Jekyll** template below.
+This is a collection of personal blogs for my phd work with the statistics network and other academic research. This website is build on the **Beautiful Jekyll** template below. I use the markdown editor `typora` to write and publish blogs locally and on `github` using `vs-code`.
 
 # Beautiful Jekyll
 
