@@ -9,8 +9,6 @@ use-site-title: true
 
 Playing with adding images using `typora`:
 
-
-
 ![screenshot-inmac](../img/davids-testimage.png)
 
 ![realcopypastescreenshot](../img/realcopypastescreenshot.png)
