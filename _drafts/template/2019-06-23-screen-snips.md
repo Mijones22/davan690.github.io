@@ -19,9 +19,12 @@ The key is to create a hidden file .nojekyll that tells GitHub that your website
 
 **Building a bookdown project site. A prefect solution for a phd project?**
 
-## SNAP three
+## SNAP three - Beggs talk...
 
-
+- wasps and rodent dynamics not linked from NZ north Island species
+- protien bait and working
+- comerical product - Vespex..
+- Impact of removing? 
 
 
 
