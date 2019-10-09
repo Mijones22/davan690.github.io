@@ -1,19 +1,22 @@
 ---
 title: Invasive Species Modelling
 layout: page
-permlink: /invasive-species-modelling.html]
-image: /img/RStudio_library.jpg
+permlink: /invasive-species-modelling.html
+meta-title: "New Zealands moonshot"
+meta-description: "The New Zealand government set a Apollo shot to make NZ free of mammalian predators by 2050."
+bigimg:
+  - "/img/big-imgs/background-image.jpg" : "Auckland Islands, NZ (2011)"
 ---
-
-The New Zealand government set a "Apollo shot" to make NZ free of mammalian predators by 2050. 
-
-![[Media release in 2016 announcing New Zealands Predator Free 2050 “apollo” shot](https://www.stuff.co.nz/environment/82454116/government-sets-target-to-make-new-zealand-predatorfree-by-2050)](./img/national-leaders-announce-pfnz2050.png)
 
 There was lots of press focus at the time (e.g. How [NZ might make PFNZ happen](https://news.nationalgeographic.com/2016/07/new-zealand-invasives-islands-rats-kiwis-conservation/);[Enviroment guide](http://www.environmentguide.org.nz/issues/biodiversity/key-threats/invasive-species/); [NZ geographic PFNZ plan](https://www.wired.com/2016/07/new-zealand-plans-kill-non-human-invasive-mammals/)) and academic interest too (extended info coming but most of the journal articles reference Russell et. al 2015 paper [here](https://academic.oup.com/bioscience/article/65/5/520/323246))
 
+![](/img/national-leaders-announce-pfnz2050.png)
+
+[Media release in 2016 announcing New Zealands Predator Free 2050 “apollo” shot](https://www.stuff.co.nz/environment/82454116/government-sets-target-to-make-new-zealand-predatorfree-by-2050).
+
 Although I am unsure if this is even a good idea but I do know from parts of my PhD research that it will be essential that both previous research, knowledge and data are made in a reproducibly accessible manner for a national scale predator control program. 
 
-This is fundamentally due to the fact that the removal of predators at the national scale will involve removing meta-populations (groups of interacting individuals) across an unknown scale/magnitude of interacting environmental variables from areas with remote human access and heavily impacted ecosystems. These differences are know to have measurable differences in responses to different predator management tools and techniques. 
+This is fundamentally due to the fact that the removal of predators at the national scale will involve removing meta-populations (groups of interacting individuals) across an unknown scale/magnitude of interacting environmental variables from areas with remote human access and heavily impacted ecosystems. These differences are know to have measurable differences in responses to different predator management tools and techniques.
 
 With the continued development of my PhD work I hope to be able to connect community groups with the statistical models needed to gain the timely ecological knowledge needed to response to pest control at a national scale. I believe that this will be vital for a on-going national monitoring needed for a PFNZ by 2050.
 
