@@ -14,13 +14,16 @@ There was lots of press focus at the time (e.g. How [NZ might make PFNZ happen](
 
 [Media release in 2016 announcing New Zealands Predator Free 2050 “apollo” shot](https://www.stuff.co.nz/environment/82454116/government-sets-target-to-make-new-zealand-predatorfree-by-2050).
 
-Although I am unsure if this is even a good idea but I do know from parts of my PhD research that it will be essential that both previous research, knowledge and data are made in a reproducibly accessible manner for a national scale predator control program. 
+Although I am unsure if this is even a good idea but I do know from parts of my PhD research that it will be essential that both previous research, knowledge and data are made in a reproducibly accessible manner for a national scale predator control program.
 
 This is fundamentally due to the fact that the removal of predators at the national scale will involve removing meta-populations (groups of interacting individuals) across an unknown scale/magnitude of interacting environmental variables from areas with remote human access and heavily impacted ecosystems. These differences are know to have measurable differences in responses to different predator management tools and techniques.
 
 With the continued development of my PhD work I hope to be able to connect community groups with the statistical models needed to gain the timely ecological knowledge needed to response to pest control at a national scale. I believe that this will be vital for a on-going national monitoring needed for a PFNZ by 2050.
 
 This will involve building a national statistical framework for data entry through to publication. This pipeline will allow the general public as there are many volunteer community groups that may not have access or the time to collate and communicate the current understanding of mammalian predators in NZ.
+
+## Projects
+
 
 ## News
 
