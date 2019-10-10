@@ -10,8 +10,11 @@ permlink: fun-and-games3.html
 
 ## SNAP one
 
-- https://twitter.com/xieyihui/status/736928051427053568
-- https://github.com/rstudio/bookdown/issues/127
+Why is reproducibility so important to PFNZ2050...
+
+This will involve building a national statistical framework for data entry through to publication. This pipeline will allow the general public as there are many volunteer community groups that may not have access or the time to collate and communicate the current understanding of mammalian predators in NZ.
+
+This is fundamentally due to the fact that the removal of predators at the national scale will involve removing meta-populations (groups of interacting individuals) across an unknown scale/magnitude of interacting environmental variables from areas with remote human access and heavily impacted ecosystems. These differences are know to have measurable differences in responses to different predator management tools and techniques.
 
 ## SNAP two
 
