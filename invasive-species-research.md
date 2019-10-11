@@ -28,7 +28,7 @@ With the continued development of my PhD work I hope to be able to connect commu
 
 ## Projects
 
-*[coming]*
+{% include complex-mixed-beech.html %}
 
 ## News
 
