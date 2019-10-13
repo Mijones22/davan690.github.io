@@ -11,6 +11,50 @@ As the education environment changes with the development of computational advan
 
 Until recently, I had been using DataCamp for supporting graduate students, however, since the recent [sexual harassment](https://medium.com/@heathernolis/on-datacamp-aafd82f94e60/) violations I have no desire to advocate for DataCamp. Since then I have removed my class subscription to the DataCamp website. But there is some good news ...
 
+<div class="main-explain-area jumbotron">
+<div><a href = "https://www.eventbrite.com.au/e/statistical-coding-tickets-70721868011"></a>
+
+<div class="get-started-wrap" align="center"><a class="btn btn-danger btn-lg get-started-btn" href="https://github.com/davan690/hughsProjects/tree/download#README" align="center">
+  Download data
+</a> 
+  <iframe src="https://giphy.com/embed/9ADoZQgs0tyww" width="480" height="320" frameBorder="0" allowFullScreen></iframe>
+  <p><a href="https://giphy.com/gifs/obama-awesome-statistics-9ADoZQgs0tyww"></a></p></div><p align="center">
+    Above is the link to the data and resources needed for the up and coming coding session (*28th August 2019*). </div>
+
+
+<h2>Additional resources</h2>
+<div class="main-explain-area jumbotron" align="center">
+  These resources are ment to support our coding sessions. To begin with the resources below are focused at researchers with very little coding knowledge.
+
+  <p>
+      <a class="btn btn-info btn-lg get-started-btn" href="https://bookdown.org/ndphillips/YaRrr/">A pirate's guide to Rrrrr</a> A different way of looking at R from the ground up.
+     </p>
+  
+  <p>
+     <a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" >Bio-statistics text</a> I have began developing this statistical ecology text from <a href = "https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/childs"> A bio-statistics course</a> taught at the <a href = "https://www.sheffield.ac.uk/")>University of Sheffield</a></p>
+      
+    <p><a class="btn btn-warning btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" align="center"> Ecology statistics text</a></p>
+      
+    <p>
+      <a class="btn btn-default btn-lg get-started-btn" href="http://www.ssnhub.com/awesome-R/" >awesome-R</a> A curated collection of trending r tools and packages
+    </p>
+    <p><a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ageraci/STAT160Companion/" > R coding</a><a> A companion text (helps as you are learning about coding)</a></p>
+
+<p>
+  <a class="btn btn-success btn-lg get-started-btn" href="https://www.ssnhub.com/reproducible-guidebook"> A reproducible guide</a> A draft site for reproducible resources and guides in research. Started from the british ecological society workshop in 2016.
+</p>
+<p>
+  <a class="btn btn-success btn-lg get-started-btn" href="https://gist.github.com/davan690" align="center">Code snippits set up as `gists`</a>A starting point for easily sharing code snippits from coding sessions and other research projects.
+</p>
+
+</div>
+
+<h2>Next up</h2>
+<div class="main-explain-area jumbotron">
+   <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/davan690/week1-coding-kris#README" align="center" col = "red">Lizard statistics</a><p algin = "centre">At the beginning of September we will begin looking at a small dataset on lizards and the presence/absence of ticks</p>
+
+</div>
+
 # Courses and Tutorials
 
 Here are a collection of subscription based learning sites like DataCamp that I have come across. When I do courses on any of these platforms I will add the information here under the provider:

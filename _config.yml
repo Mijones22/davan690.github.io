@@ -5,8 +5,8 @@
 
 # If you are building a simple GitHub user page (https://www.ssnhub.com/) then use these settings:
 # url: "https://davan690.github.io"
-url: "https://www.ssnhub.com/"
-baseurl: ""
+url: "https://www.ssnhub.com"
+#baseurl: " "
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -33,7 +33,7 @@ navbar-links:
     - R companion: "https://bookdown.org/ageraci/STAT160Companion/"
     - AwesomeShiny: "awesome-rshiny"
     - Shiny example: "shiny-salesman"
-    - Website content: "tags"
+    - Website content: "search"
 
   News:
     - Invasive species research: "invasive-species-research"
@@ -44,6 +44,7 @@ navbar-links:
     - Donate: "donate"
     - Collaborating: "contributing"
     - Contact: "contact"
+    - CV(draft only): "https://www.ssnhub.com/cv-ard"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -57,9 +58,9 @@ avatar: /img/centre-logo-white.jpg
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#026c45"
-navbar-text-col: "#6c025e"
-navbar-children-col: "#026c45"
+navbar-col: "#0B6E0A"
+navbar-text-col: "#500A86"
+navbar-children-col: "#7BBC16"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#6c025e"
@@ -114,7 +115,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "www.ssnhub.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "ssnhub.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -177,7 +178,7 @@ timezone: "Australia/Sydney"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 20
+paginate: 5
 
 kramdown:
   input: GFM
@@ -192,8 +193,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-
+      
   -
     scope:
       path: "" # all files

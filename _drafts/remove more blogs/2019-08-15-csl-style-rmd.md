@@ -13,14 +13,6 @@ YAY!! for `csl` and [stack overflow]().
 
 "I had the same problem. The following procedure worked for me:"
 
-## Resources
-
-Download the csl style here:
-
-*etc* *etc*
-
-## My notes
-
 Here are my simple and novice steps.
 
 1. Create new project with RStudio and choose "Book Project using bookdown" as option.
@@ -61,5 +53,12 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book:
   pandoc_args: [ "--csl", "chicago-author-date-de.csl" ]
- ```
+```
 
+## Resources
+
+Download the csl style here:
+
+*etc* *etc*
+
+## My notes

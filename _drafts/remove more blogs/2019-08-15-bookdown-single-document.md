@@ -1,11 +1,11 @@
 ---
-title: "Submission tick list"
-subtitle: "Journal of Wildlife Research list"
+title: "Bookdown"
+subtitle: "Rocks!"
 type: post
 image: /img/wr-webpage.png
 bigimg: /img/first-image1.png
 tags: ["markdown", "website", "tools", "rmd"]
-permalink: /journal-wr-rmd.html
+permalink: /bookdown1.html
 ---
 
 `bookdown` is an amazing conglomerate of packages using `r`. This is a collection of my resources and notes on building a `bookdown` project into a manuscript.
