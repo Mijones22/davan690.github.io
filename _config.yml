@@ -5,8 +5,8 @@
 
 # If you are building a simple GitHub user page (https://www.ssnhub.com/) then use these settings:
 # url: "https://davan690.github.io"
-url: "https://www.ssnhub.com/"
-baseurl: ""
+url: "https://www.ssnhub.com"
+#baseurl: " "
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -115,7 +115,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://www.ssnhub.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "ssnhub.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -193,8 +193,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-
+      
   -
     scope:
       path: "" # all files
