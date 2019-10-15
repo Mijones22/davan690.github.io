@@ -1,6 +1,6 @@
 ---
 type: post
-title: A collection of images and working
+title: Expanding equations lesson
 ---
 
 ## Math lessons v1
@@ -53,5 +53,8 @@ $$2 \not= x - x$$
 
 ## Solutions and Questions...
 
-1. $$3x^2 + 2x + 3 = 2(x+3)$$
+1. $$3x^2+2x+3=2(x+3)$$
+2. $$3x^3+2x+1=2(x+4)$$
+3. $$\frac{x}{4}+4x^2+2=2(2x+4)$$
+4. $$x = \frac{-6 \frac{+}{-}\sqrt{b^2 - 4ab}}{29}$$ solve for $x$
 
