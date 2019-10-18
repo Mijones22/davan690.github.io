@@ -1,60 +1,118 @@
 ---
 title: "General statistics"
 layout: page
+css: "/css/index.css"
 image: /img/RStudio_library.jpg
 permlink: /general-statistics.html
 ---
 
-This page is a collection of entry level resources for statistics and research. 
-
-As the education environment changes with the development of computational advances there are now many many online learning tools. 
-
-Until recently, I had been using DataCamp for supporting graduate students, however, since the recent [sexual harassment](https://medium.com/@heathernolis/on-datacamp-aafd82f94e60/) violations I have no desire to advocate for DataCamp. Since then I have removed my class subscription to the DataCamp website. But there is some good news ...
-
-<div class="main-explain-area jumbotron">
-<div><a href = "https://www.eventbrite.com.au/e/statistical-coding-tickets-70721868011"></a>
-
-<div class="get-started-wrap" align="center"><a class="btn btn-danger btn-lg get-started-btn" href="https://github.com/davan690/hughsProjects/tree/download#README" align="center">
-  Download data
-</a> 
-  <iframe src="https://giphy.com/embed/9ADoZQgs0tyww" width="480" height="320" frameBorder="0" allowFullScreen></iframe>
-  <p><a href="https://giphy.com/gifs/obama-awesome-statistics-9ADoZQgs0tyww"></a></p></div><p align="center">
-    Above is the link to the data and resources needed for the up and coming coding session (*28th August 2019*). </div>
-
-
-<h2>Additional resources</h2>
-<div class="main-explain-area jumbotron" align="center">
-  These resources are ment to support our coding sessions. To begin with the resources below are focused at researchers with very little coding knowledge.
-
-  <p>
-      <a class="btn btn-info btn-lg get-started-btn" href="https://bookdown.org/ndphillips/YaRrr/">A pirate's guide to Rrrrr</a> A different way of looking at R from the ground up.
-     </p>
-  
-  <p>
-     <a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" >Bio-statistics text</a> I have began developing this statistical ecology text from <a href = "https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/childs"> A bio-statistics course</a> taught at the <a href = "https://www.sheffield.ac.uk/")>University of Sheffield</a></p>
-      
-    <p><a class="btn btn-warning btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" align="center"> Ecology statistics text</a></p>
-      
-    <p>
-      <a class="btn btn-default btn-lg get-started-btn" href="http://www.ssnhub.com/awesome-R/" >awesome-R</a> A curated collection of trending r tools and packages
-    </p>
-    <p><a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ageraci/STAT160Companion/" > R coding</a><a> A companion text (helps as you are learning about coding)</a></p>
-
-<p>
-  <a class="btn btn-success btn-lg get-started-btn" href="https://www.ssnhub.com/reproducible-guidebook"> A reproducible guide</a> A draft site for reproducible resources and guides in research. Started from the british ecological society workshop in 2016.
-</p>
-<p>
-  <a class="btn btn-success btn-lg get-started-btn" href="https://gist.github.com/davan690" align="center">Code snippits set up as `gists`</a>A starting point for easily sharing code snippits from coding sessions and other research projects.
-</p>
-
+<div class="list-filters">
+  <a href="https://bookdown.org/ageraci/STAT160Companion/" class="list-filter filter-selected">R companion</a>
+  <a href="awesome-rshiny" class="list-filter">AwesomeShiny</a>
+<a href="shiny-salesman" class="list-filter">Shiny example</a>
+<a href="stats-for-bio" class="list-filter">Text book</a>
 </div>
+
+This page is a collection of entry level resources for statistics and research including resources such as these github books and courses in statistical application.
+
+<div class="spacer"></div>
+<div class="row text-center">
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+      {%- assign gh-user = "davan690"-%}
+      {%- assign gh-project = "usefulR" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">A collection of scripts, code and vignettes for doing research in ecology and general research. </p>
+        <hr class="seperator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+      {%- assign gh-project = "reproducible-guidebook" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">Building on the British Ecological Society guidebook on reporducible code.</p>
+        <hr class="seperator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+    {%- assign gh-project = "davan690.github.io" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">The beginnings of a interactive PhD thesis using Markdown. </p>
+        <hr class="seperator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+    {%- assign gh-project = "beech-forest-dynamics" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+    </a>
+    </div>
+</div>
+As the education environment changes with the development of computational advances there are now many many online learning tools. Until recently, I had been using DataCamp for supporting graduate students, however, since the recent [sexual harassment](https://medium.com/@heathernolis/on-datacamp-aafd82f94e60/) violations I have no desire to advocate for DataCamp.
 
 <h2>Next up</h2>
+
 <div class="main-explain-area jumbotron">
-   <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/davan690/week1-coding-kris#README" align="center" col = "red">Lizard statistics</a><p algin = "centre">At the beginning of September we will begin looking at a small dataset on lizards and the presence/absence of ticks</p>
+   <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/davan690/week1-coding-kris#README" align="center" col = "red">Lizard statistics</a><p algin = "centre">At the beginning of September we will begin looking at a small dataset on lizards and the presence/absence of ticks</p><a class="btn btn-warning btn-lg get-started-btn" href = "https://www.eventbrite.com.au/e/statistical-coding-tickets-70721868011" align="center">Event sign-up</a>    <a class="btn btn-danger btn-lg get-started-btn" href="https://github.com/davan690/hughsProjects/tree/download#README" align="center">Download data</a></div>
 
+Since then I have removed my class subscription to the DataCamp website. But there is some good resources ...
+
+Above is the link to the data and resources needed for the up and coming coding session (*28th August 2019*). These resources are ment to support our coding sessions. To begin with the resources below are focused at researchers with very little coding knowledge.
+
+<h2> External resources</h2>
+<div class="main-explain-area jumbotron">
+  <a class="btn btn-info btn-lg get-started-btn" href="https://bookdown.org/ndphillips/YaRrr/">A pirate's guide to Rrrrr</a> A different way of looking at R from the ground up.
+  
+  <a class="btn btn-success btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio">Bio-statistics text</a> I have began developing this statistical ecology text from the [University of Sheffield](https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/childs).
+  
+  <a class="btn btn-warning btn-lg get-started-btn" href="http://www.ssnhub.com/stats-for-bio/" align="center"> Ecology statistics text</a>
+  
+  <a class="btn btn-default btn-lg get-started-btn" href="http://www.ssnhub.com/awesome-R/">awesome-R</a> A curated collection of trending r tools and packages.
+  
+  <a class="btn btn-success btn-lg get-started-btn" href="https://bookdown.org/ageraci/STAT160Companion/" > R coding</a> A companion text (helps as you are learning about coding).
+
+  <a class="btn btn-success btn-lg get-started-btn" href="https://www.ssnhub.com/reproducible-guidebook"> A reproducible guide</a> A draft site for reproducible resources and guides in research. Started from the british ecological society workshop in 2016.
+
+  <a class="btn btn-success btn-lg get-started-btn" href="https://gist.github.com/davan690" align="center">Code snippits set up as `gists`</a> A starting point for easily sharing code snippits from coding sessions and other research projects.
 </div>
-
 # Courses and Tutorials
 
 Here are a collection of subscription based learning sites like DataCamp that I have come across. When I do courses on any of these platforms I will add the information here under the provider:

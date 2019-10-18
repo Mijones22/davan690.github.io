@@ -20,3 +20,6 @@ I have needed an accessible location to store statistics and ecology resources f
 <div style="padding:10px; text-align:center; background-color:lightblue;">
 <img src="/img/background-image.jpg" alt="An orginal statistic logo" align="center" width = "600" height = "260"/>>
 </div>
+
+<iframe src="https://giphy.com/embed/9ADoZQgs0tyww" width="480" height="320" frameBorder="0" allowFullScreen></iframe>
+<p><a href="https://giphy.com/gifs/obama-awesome-statistics-9ADoZQgs0tyww"></a></p></div><p align="center">
