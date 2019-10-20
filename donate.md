@@ -3,7 +3,6 @@ layout: page
 title: "Donate to the cause"
 subtitle: "Doing a PhD and building the Statistics Network"
 image: /img/centre-logo-white.jpg
-bigimg: /img/aboutme-image.jpg
 permlink: /aboutme.html
 ---
 

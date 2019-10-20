@@ -29,11 +29,7 @@ navbar-links:
     - General statistics: "general-statistics"
     - Ecological statistics: "ecological-statistics"
     - Health statistics: "https://bookdown.org/taragonmd/phds/"
-    - Ecological text: "stats-for-bio"
-    - R companion: "https://bookdown.org/ageraci/STAT160Companion/"
-    - AwesomeShiny: "awesome-rshiny"
-    - Shiny example: "shiny-salesman"
-    - Website content: "search"
+    - Search website: "search"
 
   News:
     - Invasive species research: "invasive-species-research"
@@ -41,10 +37,10 @@ navbar-links:
 
   Info:
     - Background: "background"
-    - Donate: "donate"
-    - Collaborating: "contributing"
-    - Contact: "contact"
     - CV(draft only): "https://www.ssnhub.com/cv-ard"
+    - Contact: "contact"
+    - Collaborating: "contributing"
+    - Donate: "donate"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -58,13 +54,13 @@ avatar: /img/centre-logo-white.jpg
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#0B6E0A"
-navbar-text-col: "#500A86"
+navbar-col: "#025823"
+navbar-text-col: "#500e7b"
 navbar-children-col: "#7BBC16"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
-hover-col: "#6c025e"
-footer-col: "#026c45"
+hover-col: "#9b91d9"
+footer-col: "#31734d"
 footer-text-col: "#6c025e"
 footer-link-col: "#404040"
 

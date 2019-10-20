@@ -26,3 +26,20 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 {: style="text-align: justify"}
 
 If you're comfortable making contributions any other way, please feel free to do it your way and send us the pull request, message or email and we will gladly review the changes.
+
+## Beautiful Jekyll steps
+
+<div class="main-explain-area jumbotron">
+  <p>This website is powered by GitHub Pages/Jekyll and can be built in <strong>under 5 minutes</strong>. Literally.</p>
+  <div class="get-started-wrap">
+    <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
+  </div>
+  <p>Designed to look great on both desktops and mobile devices.</p>
+  <p>Below are sample blog posts for illustration purposes.</p>
+  <p>If you like this theme, please consider supporting me :)</p>
+  <p align="center">
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EG5Q5483TTWCN">
+      <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
+    </a>
+  </p>
+</div>
