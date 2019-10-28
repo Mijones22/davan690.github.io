@@ -4,7 +4,7 @@ subtitle: "What am I answering?"
 layout: post
 permalink: /husydown-thesis-conversion.html
 tags: ["test", "tools","rmd", "rstudio","home", "presub"]
-image: /img/open-science-badges.jpg
+image: /img/change-transform-osf-image.jpg
 ---
 
 ### [gauchodown](https://github.com/DanOvando/gauchodown)
