@@ -1,14 +1,13 @@
 ---
 title: "Data wrangling"
 subtitle: "for stoat control paper"
-bibliography: Beech-forests.bib
 type: post
 tags: ["phd", "beech", "rmd", "RStudio", "invasive-spp", "general", "ecology", "thesis"]
 image: /img/doc-image-logo.png
 permlink: /beech-seed-wrangling.html
 ---
 
-Below I have attempted to incorporate the known dynamics of beech forests into the estimation process of beech seed. Most of this focuses on the possibility that differences/or lack of, is not a fact of stoat control but in fact differences in un-measured variables between the sites. I believe that this is not the case because:
+Below I have attempted to incorporate the known dynamics of beech forests into the estimation process of beech seed. Most of this focuses on the possibility that differences/or lack of, is not a fact of stoat control but in fact differences in un-measured variables between the sites. I believe that this is not the case [@ruscoe2001wr] because:
 
 1. Differences are within the range of other publication.
 

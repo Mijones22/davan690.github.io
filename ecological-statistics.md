@@ -3,7 +3,15 @@ title: Ecological Statistics
 layout: page
 permlink: /ecological-statistics.html
 image: /img/RStudio_library.jpg
+css: "/css/index.css"
 ---
+
+<div class="list-filters">
+  <a href="https://bookdown.org/ageraci/STAT160Companion/" class="list-filter filter-selected">R companion</a>
+  <a href="awesome-rshiny" class="list-filter">AwesomeShiny</a>
+<a href="shiny-salesman" class="list-filter">Shiny example</a>
+<a href="stats-for-bio" class="list-filter">Text book</a>
+</div>
 
 Statistics in ecology can be a tricky endeavour with real data. My PhD research focuses on Bayesian Hierarchical Modelling with Ecological Data. These are the resources I have used and still do at times. To begin to understand and teach Bayesian methods I often refer to older and often more understood statistical methods.
 

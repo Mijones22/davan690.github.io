@@ -4,16 +4,13 @@ subtitle: "Hugh's seminar on feedback"
 layout: post
 tags: ["general", "overview", "website", "tools", "resources", "1"]
 image: /img/thumbnail1.png
-bigimg: /img/aboutme-image.jpg
 permlink: /feedback.html
 featured: true
 ---
 
 <div style="padding:5px; text-align:center; background-color:lightblue;">
   <div class="banner-content">
-    <p>As I am building this website and the resources surrounding my statistics work I will have and continue to made mistakes and miss points. I look forward to the feedback but am definitely a little worried.</p>
-
-</div>
+    <p>As I am building this website and the resources surrounding my statistics work I will have and continue to made mistakes and miss points. I look forward to the feedback but am definitely a little worried.</p></div>
 </div>
 
 I am often not sure how best to manage feedback at the best of times. As I work in an open-source framework I will have to get better at it as my work is always easily accessible if you know where to look. This is the beginning of developing some guidelines for feedback both for me personally and for the website.
